@@ -3,11 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: 焖
+subtitle: 好习惯受益终生
 description:
 author: yangzz
 language:
+- zh-CN
+- zh-TW
 timezone:
 
 # URL
