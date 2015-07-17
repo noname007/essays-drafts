@@ -1,5 +1,5 @@
 title: linux-cmd
-tags:
+tags: draft
 ---
 
 #sort
