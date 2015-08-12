@@ -5,7 +5,7 @@ tags:
 ---
 
 <!-- [TOC] -->
-#常用命令
+##常用命令
     > git
 - `git add`
 - `git branch`
@@ -30,7 +30,12 @@ tags:
 - `git status`
 - `git tag`
 
-#协作模型
+##协作模型
+
+##参考文章
+
+http://www.ruanyifeng.com/blog/2015/08/git-use-process.html
+
 
 
 
