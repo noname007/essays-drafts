@@ -3,7 +3,7 @@ menu:
   归档: /archives
   关于: /about
   工具: /tools
-  
+
 
 widgets:
 - search
@@ -31,5 +31,5 @@ addthis:
 
 fancybox: true
 
-google_analytics: UA-41207871-1
+# google_analytics: UA-41207871-1
 rss: http://zipperary.com/atom.xml
