@@ -9,25 +9,25 @@ widgets:
 
 excerpt_link: Read More
 
-twitter:
-  username:
-  show_replies: false
-  tweet_count: 5
+# twitter:
+#   username:
+#   show_replies: false
+#   tweet_count: 5
 
 addthis:
   enable: true
   pubid:
-  facebook: true
-  twitter: true
-  google: true
+  facebook: false
+  twitter: false
+  google: false
   pinterest: true
 
-fancybox: true
+fancybox: false
 
 google_analytics:
 rss:
 
-comment_provider: facebook
+comment_provider: 
 # Facebook comment
 facebook:
   appid: 123456789012345
