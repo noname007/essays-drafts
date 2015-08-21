@@ -2,7 +2,7 @@ title: PHP文件上传
 date: 2015-08-05 19:07:02
 tags: 
 - php
-- ngxin
+- nginx
 - 配置
 ---
 
