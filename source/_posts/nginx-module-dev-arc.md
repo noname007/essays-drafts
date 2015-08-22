@@ -28,6 +28,17 @@ tags:
     + ngx_buf_t -- 处理大数据的关键，应用于内存、磁盘文件数据
     + ngx_chain_t -- 配合 ngx_buf_t 使用的链表数据结构
     + ngx_file_t -- 应用于描述磁盘文件、
+    + ngx_module_t nginx模块的数据结构
 - 编译进自己的模块
     + 使用`./configure --add-module=PATH` 
     + 修改`./configure` 脚本执行后生成的 `objs/Makefile` 和 `objs/ngx_modules.c`，文件
+- http模块数据结构
+ 定义模块时最重要的是设置ctx 和 commands 两个成员
+ ngx_http_module_t  ---- http 框架 重载、读取配置文时，在其中描述了执行的8个阶段
+  -- 读取配置文件前后
+  -- main 级别配置
+  -- loc 级别配置
+  -- server 级别配置
+  -- 合并冲突配置
+  + ngx_command_t 定义模块配置文件参数
+  + ngx_null_command
