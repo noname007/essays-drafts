@@ -42,3 +42,4 @@ tags:
   -- 合并冲突配置
   + ngx_command_t 定义模块配置文件参数
   + ngx_null_command
+  + ngx_http_request_t http 请求信息，方法，URI,协议号，版本号头部等
