@@ -40,6 +40,31 @@ tags:
   -- loc 级别配置
   -- server 级别配置
   -- 合并冲突配置
-  + ngx_command_t 定义模块配置文件参数
-  + ngx_null_command
-  + ngx_http_request_t http 请求信息，方法，URI,协议号，版本号头部等
+  + `ngx_command_t` 定义模块配置文件参数 配置里面的命令与对应程序回调函数的一个映射表
+  + `ngx_null_command`
+  + `ngx_http_request_t` http 请求信息，方法，URI,协议号，版本号头部等
+##命名习惯
+- 模块配置信息 -- `ngx_http_<module name>_(main|srv|loc)_conf_t`
+- 模块配置指令 -- `ngx_command_t `
+
+
+##[总结]
+###nginx 加载http模块的流程
+
+根据 `ngx_module_t `类型的变量，
+
+- 设置模块的类型，
+- 设置模块的运行上下文环境相关的回调函数、
+- 根据 `ngx_command_t`类型的变量中的配置，设置nginx配置文件中的`指令`和`回调程序`之间的`映射`关系、
+
+-----`ngx_module_t`
+     |-->`ngx_command_t`
+     |-->
+
+<script src="https://gist.github.com/noname007/2aef05f4698647a7f95a.js"></script>
+
+##[reference]
+http://tengine.taobao.org/book/
+
+##[resource]
+http://www.evanmiller.org/nginx-modules-guide.html
