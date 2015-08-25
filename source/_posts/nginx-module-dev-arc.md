@@ -15,6 +15,23 @@ tags:
 
 ##操作系统信号与nginx命令
 
+##2.3 Nginx 服务的基本配置
+
+###用于调试、定位问题的配置项
+  
+- daemon on|off
+- master_process on|off
+- error_log /path/file level
+  + lever : debug --> info --> notice --> warn --> error --> crit -->alert -->emerg
+  + 当为debug级别的日志的时候 需加入 `--with-debug` 编译选项
+- debug_points [stop|abort]
+- debug_connection [ip|CIDR] 针对ip|CIDR地址的才开启debug 级别的调试
+- worker_rlimit_core size; 限制coredump文件大小
+- working_directory path   配置coredump 文件所放置的目录
+- 
+
+
+
 #第三章 
 -  nginx 调用http 模块的整个运行时流程
 -  把模块编译进nginx前的准备工作    
