@@ -80,8 +80,42 @@ tags:
 
 <script src="https://gist.github.com/noname007/2aef05f4698647a7f95a.js"></script>
 
+##跟踪调试
+1. 绑定Nginx到gdb
+  - 编译时添加 `-g`选项,不加则会因为缺少相应的符号信息，可能会有“No symbol table is loaded.User the"file" command”
+  - 添加`-O0`编译选项，出现下面的现象多半时因为没有添加此选项，gcc优化所致
+    + gdb内打印变量时提示“<value optimized out>”
+    + gdb显示的当前正执行的代码行与源码匹配不上
+  - 编译选项添加
+    + objs/Makefile文件，这两个变量直接加在CFLAGS变量里面
+    + 执行configure 配置时 (两者都可以)
+      * `./configure --with-cc-opt='-g -O0'`
+      * `CFLAGS="-g -O0" ./configure`
+    + 执行make命令时
+      * `make CFLAGS="-g -O0"`
+2. gdb调试
+  - `-p` 指定要调试的进程的pid,`(gdb)attach pid`
+  - `w`
+  - `b`
+  - `r`
+  - 'p'
+  - 'bt'
+  - 'c'
+  - `info macro NGX_OK`
+  - `macro expand NGX_OK`
+  - `list`
+2. nginx 日志系统 ngx_log_xxx( );
+3.  
+
+
+
+
 ##[reference]
 http://tengine.taobao.org/book/
 
 ##[resource]
 http://www.evanmiller.org/nginx-modules-guide.html
+[tools]
+
+SystemTap 监控和跟踪运行中的 Linux 内核的操作的动态方法
+http://www.ibm.com/developerworks/cn/linux/l-systemtap/
