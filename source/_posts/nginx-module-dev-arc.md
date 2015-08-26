@@ -78,7 +78,6 @@ tags:
      |-->`ngx_command_t`
      |-->
 
-<script src="https://gist.github.com/noname007/2aef05f4698647a7f95a.js"></script>
 
 ##跟踪调试
 1. 绑定Nginx到gdb
@@ -108,6 +107,14 @@ tags:
 3.  
 
 
+##第四章
+
+1. 如何解析配置文件
+
+
+所谓的http框架主要包括ngx_http_module 和ngx_http_core_module
+
+
 
 
 ##[reference]
@@ -115,7 +122,14 @@ http://tengine.taobao.org/book/
 
 ##[resource]
 http://www.evanmiller.org/nginx-modules-guide.html
+
 [tools]
 
 SystemTap 监控和跟踪运行中的 Linux 内核的操作的动态方法
 http://www.ibm.com/developerworks/cn/linux/l-systemtap/
+
+Sublime插件：C语言篇
+http://www.jianshu.com/p/595975a2a5f3
+
+使用Sublime Text3+Ctags+Cscope替代Source Insight
+https://www.zybuluo.com/lanxinyuchs/note/33551
