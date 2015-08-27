@@ -115,6 +115,31 @@ tags:
 所谓的http框架主要包括ngx_http_module 和ngx_http_core_module
 
 
+##第五章 第三方服务
+1. upstream   : 非常高效的`透传`http,把第三方服务几乎原封不动的返给用户
+2. subrequest : 访问第三方服务获取某些信息，再根据信息构造响应发送给用户，此时使用这种方式
+
+###upstream
+- 8个回调方法
+- upstream如何嵌入到一个请求中
+
+ds:
+ngx_http_module_t:ngx_http_upstream_t upstream
+
+ngx_http_upstream_create(); 创建上面介绍的 upstream 成员
+
+##第六章 HTTP过滤模块
+
+{% blockquote %}
+ 
+ 对发送给用户的HTTP响应包做一些加工
+
+{% endblockquote %}
+
+一个请求可以被任意个HTTP过滤模块处理，仅仅处理服务器发往客户端的HTTP响应，不处理客户端发往服务器的HTTP请求。
+
+1. http过滤块是如何组织到一起的，调用顺序是如何确定的
+2. 
 
 
 ##[reference]
