@@ -139,7 +139,37 @@ ngx_http_upstream_create(); 创建上面介绍的 upstream 成员
 一个请求可以被任意个HTTP过滤模块处理，仅仅处理服务器发往客户端的HTTP响应，不处理客户端发往服务器的HTTP请求。
 
 1. http过滤块是如何组织到一起的，调用顺序是如何确定的
-2. 
+
+##第七章 高级数据结构
+###★ 6个基本容器
+- ngx_queue_t 双向链表 轻量级链表容器
+- ngx_array_t  动态数组，类似于C++ stl中的vector，能自动扩容，扩容算法与常见的vector容器不同
+- ngx_list_t 单向链表
+- ngx_rbtree_t  红黑树
+- ngx_radix_tree_t 基数树
+- 支持通配符的散列表
+
+###☆  红黑树
+- 定义
+ 1. 节点颜色只能是红或者黑
+ 1. 根节点和叶子节点都是黑色
+ 1. 红色节点的两个儿子都是黑色（叶子节点到根节点的所有路径上不能有两个连续的红色节点）
+ 1. 任一节点到其叶子节点的所有简单路径上，r |---> leaf 包含相同数目的黑色节点
+- 性质
+  1. 操作速度快
+  2. 范围查找
+  3. 遍历
+
+###☆ 基数树
+
+##第八章  nginx 基础架构
+
+##☆ 目标
+1. nginx 设计原则
+2. 从具体框架代码入手，讨论：
+  - ngx如何启动、运行、退出
+  - master进程 如何管理worker进程、
+  - 每个模块如何加载到进程中
 
 
 ##[reference]
@@ -148,7 +178,7 @@ http://tengine.taobao.org/book/
 ##[resource]
 http://www.evanmiller.org/nginx-modules-guide.html
 
-[tools]
+##[tools]
 
 SystemTap 监控和跟踪运行中的 Linux 内核的操作的动态方法
 http://www.ibm.com/developerworks/cn/linux/l-systemtap/
