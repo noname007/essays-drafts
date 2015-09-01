@@ -170,6 +170,51 @@ ngx_http_upstream_create(); 创建上面介绍的 upstream 成员
   - ngx如何启动、运行、退出
   - master进程 如何管理worker进程、
   - 每个模块如何加载到进程中
+3. 模块
+  - 配置模块 
+    + 类型: NGX_CONF_MODULE
+    + 模块：ngx_conf_module
+  - 核心模块
+    + 类型：NGX_CORE_MODULE
+    + 模块: 
+      * ngx_core_module
+      * ngx_errlog_module
+      * ngx_event_module
+      * ngx_openssl_module
+      * ngx_http_module
+      * ngx_mail_module
+  - 事件模块
+  - http模块
+  - mail模块
+  - 
+4. ngx_cycle_t 结构体
+  - 成员变量
+    + prefix、conf_prefix、conf_file 字符串类型 --- 保存Nginx 配置文件路径
+    + connections、read_events、write_events、files、free_connections --- 与事件模块强相关
+    + 
+  - 
+5. ngx 启动流程
+  - 解析命令行，处理各种参数
+  - 
+6.  
+
+##第十四章
+1. Linux进程间通信方式
+  - 共享内存
+  - 套接字
+  - 管道
+  - 消息队列
+  - 信号
+  - ...
+2. nginx 使用的通信方式
+  - 共享内存
+  - 套接字
+  - 信号
+3. 同步方式
+  - 原子操作
+  - 信号量
+  - 文件锁
+4.  
 
 
 ##[reference]
