@@ -1,5 +1,7 @@
-title: linux-cmd
-tags: linux
+title: linux 下工具命令
+tags:
+- linux 
+
 date: 2015-08-04 18:14:42
 ---
 
