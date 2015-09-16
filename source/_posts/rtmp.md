@@ -1,8 +1,9 @@
 title: 视频直播、点播草稿
-tags: 
-- nginx-rtmp
+tags:
+  - nginx-rtmp
 date: 2015-09-06 00:00:00
 ---
+
 
 
 ##rtmp 指令---中继（relay）
