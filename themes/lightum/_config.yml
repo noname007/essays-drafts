@@ -8,8 +8,8 @@ menu:
 widgets:
 - search
 # - category
-- tag
-# - tagcloud
+# - tag
+- tagcloud
 # - intro
 # - weibo
 
