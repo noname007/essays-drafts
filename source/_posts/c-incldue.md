@@ -90,8 +90,6 @@ tags:
 
 ##参考
 
-------
-
 [gcc include路径](http://blog.chinaunix.net/uid-22150747-id-189278.html)
 [gcc中include文件的搜索路径](http://www.cnblogs.com/zhoug2020/archive/2012/07/04/2576068.html)
 [c项目中指定头文件目录](http://blog.csdn.net/ericghw/article/details/38639821)
