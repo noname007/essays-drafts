@@ -1,0 +1,20 @@
+# when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
+
+version: 2.0
+# Place your favicon.ico to /source directory.
+favicon: /favicon.ico
+
+# Set default keywords (Use a comma to separate)
+keywords: "My Blog, Spider Bitch!"
+
+disqus: 
+
+menu:
+  Blog: /
+  #categories: /categories
+  #archives: /archives
+  #tags: /tags
+  GitHub: https:github.com/mickeyouyou
+  About: /about
+
+
