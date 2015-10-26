@@ -7,14 +7,14 @@ favicon: /favicon.ico
 # Set default keywords (Use a comma to separate)
 keywords: "My Blog, Spider Bitch!"
 
-disqus: 
+disqus_shortname: soul11201
 
 menu:
   Blog: /
   #categories: /categories
   #archives: /archives
   #tags: /tags
-  GitHub: https:github.com/mickeyouyou
+  GitHub: https://github.com/noname007
   About: /about
 
 
