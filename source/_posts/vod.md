@@ -1,4 +1,4 @@
-title: 使用nginx实现视频点播
+title: nginx 点播
 date: 2015-08-17 14:54:36
 tags:
 - nginx
@@ -6,17 +6,16 @@ tags:
 - rtmp
 ---
 
-[文档](https://github.com/arut/nginx-rtmp-module/wiki/Directives#video-on-demand)
+https://github.com/arut/nginx-rtmp-module/wiki/Directives#video-on-demand
 
-使用 play 相关的指令可以实现点播功能。相关命令:
-- play
+对于点播功能， nginx-rtmp-module 模块只提供了三条相关命令,但是能满足基本的要求:
+>- play
 - play_temp_path
 - play_local_path
 
 
-##配置
 
-使用play命令可以点播mp4和flv文件。文件路径支持`本地目录`和http指定的`url`路径。
+
 
 ```conf
 #本地文件
@@ -26,39 +25,57 @@ application vod {
 
 #网络中的文件
 application vod_http {
-    play http://myserver.com/vod;
+    play_temp_path /var/flvs;
+    play_local_path /var/flvs;
+    play /var/flvs http://myserver.com/vod;
 }
 ```
 
+
+## play
+
+- 文件格式是`mp4`和`flv`。
+- 文件可以是本地的，也可以是网络上http可以访问到的。
 - play 指令中可以指定多个文件路径
-
 - 多个play指令的时候，会合并指令中的位置。在播放的时候会在这些路径列表中的文件夹下依次查找，查不到，就会给前端返回一个错误。
- 
 - mp4 文件需要 采用 H.264 和 AAC 格式编码。
+- flv文件点播需要添加关键帧（可以使用yamdi添加），否则没有暂停功能。
+- 如果点播`record` 指令生成的文件，记住视频文件没有关键帧。
 
-- flv文件点播需要添加关键帧（可以使用yamdi添加），`record` 指令生成的文件没有关键帧。
+## 播放网络文件
 
 
-当播放一个网络文件时，nginx会先把文件下载完，然后才播放。下载文件临时存放的位置由`play_temp_path`指定，默认是存在`/tmp`文件夹下。另外，可以使用 `play_local_path`指令，把下载的文件复制到本地，配合play指令可以指定多个路径列表的特点，提高性能，不用是ngx每次都去下载网络视频资源。
+当播放一个网络文件时，nginx会先把文件下载完，然后才播放。下载文件时临时存放的位置由`play_temp_path`指定，其默认值是 `/tmp`，播放完毕后就会丢弃。如果`play_local_path`指定其值，就会先把拷贝到这个位置。这两条指令配合play指令可以提升一些性能。
 
 
-配置更改如下即可实现点播url指定的文件，同时可以将文件缓存再本地，提高性能。
+
+## 一些 tips
+
+** 三条命令 **
+
+如果每次点播文件每次都去下载,一是会浪费带宽，二是浪费时间，每次都必须等待下载完成才能播放。如果能下载的文件复制到本地，那么就可以结合play指令，使本地磁盘就可以起到缓存网络数据功能了。
+
 ```conf
-#网络中的文件
+#磁盘缓存网络数据
 application vod_http {
-    play_local_path /tmp/videos;
-    play /tmp/videos http://example.com/videos;
+    play_temp_path  /var/flvs;
+    play_local_path /var/flvs;
+    play /var/flvs http://example.com/videos;
 }
 ```
 
-##添加关键帧
+**添加关键帧**
 
     yamdi –i src.flv –o dst.flv
 
 [yamdi 文档](http://yamdi.sourceforge.net/)
 
-##点播视频
+**播放rtmp视频**
 
 可以使用ffmpeg自带的ffplay
 
     ffplay rtmp://localhost/vod//dir/file.flv
+
+一个网络工具
+    
+    <http://www.cutv.com/demo/live_test.swf>
