@@ -6,18 +6,13 @@ tags:
 - rtmp
 ---
 
-https://github.com/arut/nginx-rtmp-module/wiki/Directives#video-on-demand
-
 对于点播功能， nginx-rtmp-module 模块只提供了三条相关命令,但是能满足基本的要求:
 >- play
 - play_temp_path
 - play_local_path
 
 
-
-
-
-```conf
+```shell
 #本地文件
 application vod {
     play /var/flvs;
@@ -55,7 +50,7 @@ application vod_http {
 
 如果每次点播文件每次都去下载,一是会浪费带宽，二是浪费时间，每次都必须等待下载完成才能播放。如果能下载的文件复制到本地，那么就可以结合play指令，使本地磁盘就可以起到缓存网络数据功能了。
 
-```conf
+```shell
 #磁盘缓存网络数据
 application vod_http {
     play_temp_path  /var/flvs;
@@ -79,3 +74,9 @@ application vod_http {
 一个网络工具
     
     <http://www.cutv.com/demo/live_test.swf>
+
+
+## 参考
+
+1. https://github.com/arut/nginx-rtmp-module/wiki/Directives#video-on-demand
+2. http://blog.waterlin.org/articles/using-nginx-rtmp-module-to-build-broadcast-system.html

@@ -1,20 +1,11 @@
-title: 视频直播、点播草稿
+title: nginx-rtmp-module 总结（草稿）
 tags:
-  - nginx-rtmp
+  - nginx-rtmp-module
+  - nginx
 date: 2015-09-06 00:00:00
 ---
 
-
-
-##rtmp 指令---中继（relay）
-    Syntax: pull url [key=value]*
-    Context: application
-
-创建pull中继，拉取远程的流放到本地使用，当有播放器连接的时候命令才会生效
-
-Url 语法: `[rtmp://]host[:port][/app[/playpath]]`.
-
-如果app没有指定，则使用本地请求中的app名字
+## 一些参数及其含义
 
 |参数名称|说明|
 |---|---|
@@ -29,6 +20,19 @@ Url 语法: `[rtmp://]host[:port][/app[/playpath]]`.
 |start||
 |stop||
 |static|静态化，会在nginx 启动的时候创建|
+
+
+##rtmp 指令---中继（relay）
+    Syntax: pull url [key=value]*
+    Context: application
+
+创建pull中继，拉取远程的流放到本地使用，当有播放器连接的时候命令才会生效
+
+Url 语法: `[rtmp://]host[:port][/app[/playpath]]`.
+
+如果app没有指定，则使用本地请求中的app名字
+
+
 
 
 **Example**
