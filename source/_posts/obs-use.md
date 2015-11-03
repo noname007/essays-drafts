@@ -1,4 +1,4 @@
-title: obs使用
+title: obs简单使用
 date: 2015-10-23 16:55:27
 tags:
 - obs
