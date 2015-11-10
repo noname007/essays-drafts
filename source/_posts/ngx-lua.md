@@ -1,0 +1,60 @@
+title: ngx-lua 笔记总计
+date: 2015-11-10 20:27:52
+tags:
+- ngx-lua
+---
+
+##跟ngx有关的函数、变量
+
+###ngx.header
+
+响应头设置
+
+重定向:`ngx.header.Location`
+
+###ngx.exit(404)
+断开连接，同时设置响应的状态码
+
+###ngx.log(log_level,log_info1,log_info2,....)
+
+打印日志到ngx日志。第一个是日志级别如`ngx.ERR`
+
+
+##应用
+###获取post和get中的参数
+
+```lua
+local args = {}
+if "GET" == r_m or "HEAD" == r_m then
+    ngx.log(ngx.ERR,"GET============")
+    args = ngx.req.get_uri_args()
+elseif "POST" == r_m then
+    ngx.req.read_body()
+    args = ngx.req.get_post_args()
+    ngx.log(ngx.ERR,"POSTD-----------")
+end  
+```
+
+<!-- ##细节 -->
+<!-- ## -->
+
+###遍历出来请求中的数据并打印到日志
+
+pairs -- table
+
+ipairs -- 数组
+
+```lua
+for k,v in pairs(args) do
+    ngx.log(ngx.ERR,"=====k=====>",type(k),":",k, " ====v===>",type(v),":",v)
+end  
+```
+
+##ngx 指令
+
+###rewrite
+`rewrite reg new flag`
+
+匹配失败，则继续往下执行，就当什么都没发生过
+
+具体使用 http://www.nginx.cn/216.html
