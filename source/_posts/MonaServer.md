@@ -17,7 +17,7 @@ tags:
 
 1. [How to set up your own private RTMFP server using MonaServer][link1]
 2. [Quick Start](http://www.monaserver.ovh/quickstart.html)
-3. 
+3. [手册](http://www.monaserver.ovh/manual.html)
 
 
 
