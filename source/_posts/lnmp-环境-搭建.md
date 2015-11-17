@@ -1,0 +1,86 @@
+title: lnmp 环境 搭建
+date: 2015-11-17 20:08:24
+tags:
+- lnmp
+- 笔记
+---
+##整体结构
+![盗用一张图](http://www.68idc.cn/help/uploads/allimg/130923/0G5201D7_0.jpg )
+##安装
+
+**nginx**
+
+可以手动编译安装，也可以是使用`apt-get`方式安装。第二种方式版本较低。
+
+**fpm、mysql**
+
+荐`apt-get`方式安装，便捷。
+
+##配置
+
+**nginx **
+
+```
+ server {
+    listen 8082;
+    #server_name localhost;
+
+    root /data/codes/sevenga_tuitui/backend;
+    index index.php;
+
+    location / { 
+        try_files $uri $uri/ /index.php?$args;
+        # upload_limit_rate 1m;
+    }   
+
+    location ~ \.php$ {
+        try_files $uri =404;
+        include fastcgi_params;
+        fastcgi_pass 127.0.0.1:9000;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param PATH_INFO $fastcgi_script_name;
+    }   
+
+    error_page 500 502 503 504 /50x.html;
+    location = /50x.html {
+        root html;
+    }   
+}   
+```
+
+**fpm**
+
+配置文件 `/etc/php5/fpm/pool.d/www.conf`,设置fpm监听端口和nginx配置一致
+
+```
+listen =127.0.0.1:9000 
+```
+
+
+##FAQ
+
+### mysql 安装过程未设置密码，用root，空密码登陆  报 `ERROR 1045 (28000)` 错误。
+
+```
+sudo /etc/init.d/mysql stop
+sudo mysqld_safe --user=mysql --skip-grant-tables --skip-networking&
+sudo mysql -u root mysql
+```
+
+**重设秘密**
+
+```
+UPDATE user SET Password=PASSWORD('newpassword') whereUSER='root';
+FLUSH PRIVILEGES;
+quit;
+```
+
+**重启数据库：**
+
+`/etc/init.d/mysql restart`
+
+2.  
+
+##参考
+1. [ubuntu 系统解决mysql连接问题（ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)）](http://laokaddk.blog.51cto.com/368606/1323292)
