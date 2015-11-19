@@ -31,10 +31,17 @@ Free, open source software for live streaming and recording
 - 点击 右下角的设置 - 串流 - 自定义流媒体服务器 
 - 填写 URL 和流密钥 `rtmp://192.168.1.183/live` 、`ted`,观看的时候需要把两者拼接起来，播放地址即为` rtmp://192.168.1.183/live/ted`
 - 点击`开始串流`，如果没有报错视频就推送成功了，可以使用播放器，如vlc、ffplay、potplayer，直接观看了。
+![][obs-use]
+
+
+
 
 ## update
 
 **更新情况**
 2015-10-23 16:55:27
 2015-10-26 15:04:27
+2015-11-19 13:33:00  增加图片
 
+
+[obs-use]: https://raw.githubusercontent.com/noname007/assets/master/obs-use.gif
