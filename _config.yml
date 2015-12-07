@@ -82,6 +82,8 @@ sitemap:
 #   type: atom
 #   path: atom.xml
 #   limit: 20
+# plugins:
+# - hexo-math
 
 toc:
   maxDepth: 3
