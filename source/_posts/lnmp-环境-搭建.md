@@ -60,7 +60,7 @@ listen =127.0.0.1:9000
 
 ##FAQ
 
-### mysql 安装过程未设置密码，用root，空密码登陆  报 `ERROR 1045 (28000)` 错误。
+#### mysql 安装过程未设置密码.。用root、空密码登陆报 `ERROR 1045 (28000)` 错误。
 
 ```
 sudo /etc/init.d/mysql stop
@@ -68,19 +68,17 @@ sudo mysqld_safe --user=mysql --skip-grant-tables --skip-networking&
 sudo mysql -u root mysql
 ```
 
-**重设秘密**
+更改sql用户密码
 
-```
-UPDATE user SET Password=PASSWORD('newpassword') whereUSER='root';
-FLUSH PRIVILEGES;
-quit;
+```sql
+update mysql.user set password=PASSWORD（'新密码'） where User='root'
+flush privileges
 ```
 
-**重启数据库：**
+重启数据库：
 
 `/etc/init.d/mysql restart`
 
-2.  
 
 ##参考
 1. [ubuntu 系统解决mysql连接问题（ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)）](http://laokaddk.blog.51cto.com/368606/1323292)
