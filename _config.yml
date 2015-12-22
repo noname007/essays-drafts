@@ -72,9 +72,12 @@ theme: yinwang
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:yangzz0/yangzz0.github.io.git
-  branch: master
+  - type: git
+    repo: git@github.com:yangzz0/yangzz0.github.io.git
+    branch: master
+  - type: git
+    repo: git@gitcafe.com:soul11201/soul11201.git
+    branch: gitcafe-pages
 
 sitemap:
     path: sitemap.xml
