@@ -13,8 +13,11 @@ menu:
     url: tags
     intro: "All the tags."
     # icon: "fa fa-tags"
-  - title: About
+  - title: 清单
     url: about
+    intro: "About me."
+  - title: About
+    url: about/memo.html
     intro: "About me."
     # icon: "fa fa-user"
   - title: RSS
