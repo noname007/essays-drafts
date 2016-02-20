@@ -3,7 +3,6 @@ date: 2015-12-06 13:02:37
 mathjax: true
 tags:
 - mathjax
-- 
 ---
 
 ## 安装

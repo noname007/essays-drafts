@@ -3,6 +3,9 @@ date: 2016-02-20 17:32:49
 tags: 
 - yii2
 - assets
+<!-- description: Introduce tag plugins in freemind. -->
+<!--  feature: images/tag-plugins/plugins.jpg -->
+toc: true
 ---
 
 
