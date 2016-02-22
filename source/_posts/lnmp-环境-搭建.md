@@ -1,12 +1,26 @@
-title: lnmp 环境 搭建
+title: php 开发环境搭建 
 date: 2015-11-17 20:08:24
 tags:
 - lnmp
+- php
 - 笔记
+- 环境搭建
 ---
-##整体结构
+
+个人使用的方式有两种
+
+1. lamp/lnmp 环境
+2. php 自带的webserver
+
+# php 自带的webserver
+配置搭建比较简单，一条命令即可以下实现一个本地server `php -S 0.0.0.0:8010`。在浏览器中就可以访问。
+
+# lnmp 环境 搭建
+
+## 整体结构
 ![盗用一张图](http://www.68idc.cn/help/uploads/allimg/130923/0G5201D7_0.jpg )
-##安装
+
+## 安装
 
 **nginx**
 
@@ -16,7 +30,7 @@ tags:
 
 荐`apt-get`方式安装，便捷。
 
-##配置
+## 配置
 
 **nginx **
 
