@@ -8,7 +8,7 @@ tags:
 toc: true
 ---
 
-
+# 简单介绍
 ## 资源是什么？
 
 Yii中的资源是 `和Web页面相关的文件` ，可为CSS文件，JavaScript文件，图片或视频等，资源放在Web可访问的目录下，直接被Web服务器调用。在yii中实现了使用程序自动管理资源。
@@ -70,11 +70,25 @@ Yii在资源包中管理资源，`资源包`简单的说就是`放在一个目�
 
 1. 视图中
 2. 小部件类中
+
 ```php
 <?php
     use app\assets\AppAsset;
     AppAsset::register($this);  // $this 代表视图对象
 ```
 
-## 参考
+
+
+# yii2中的代码实现
+
+## SiteController中怎么加载进来的？在那个位置，怎么调用的代码?   
+文件  `@app/views/layouts/main.php`
+调用的代码`$this->endBody()`
+
+### `yii\web\View`
+
+`registerAssetBundle($name, $position = null)` 注册依赖的资源包，其中`$name`是资源包的管理类的类名。
+
+
+# 参考
 http://www.yiichina.com/doc/guide/2.0/structure-assets
