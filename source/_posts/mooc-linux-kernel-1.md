@@ -8,6 +8,10 @@ tags:
 toc: true
 description: 杨振振  原创作品转载请注明出处  《Linux内核分析》MOOC课程 http://www.xuetangx.com/courses/course-v1:ustcX+USTC001+_/about
 ---
+{% blockquote %}
+杨振振  原创作品转载请注明出处  《Linux内核分析》MOOC课程 http://mooc.study.163.com/course/USTC-1000029000
+{% endblockquote %}
+
 ## 一些常识
 
 平时可能见到movb,movw,movl等一些指令，三条指令的意思基本一样，不一样的地方在于，操作的数据是1个字节(1B)，1个字(2B)，1个双字（4B）。
