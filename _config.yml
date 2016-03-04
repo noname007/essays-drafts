@@ -6,13 +6,13 @@
 # title: 焖
 title: coder 随想录
 subtitle: 好习惯受益终生
-description: blog;笔记;总结;摘抄
+description:  好记性不如烂笔头
+# blog;笔记;总结;摘抄
 author: yangzz
-language:
-- zh-CN
-- zh-TW
+language: zh-Hans
 timezone:
 
+avatar: https://avatars2.githubusercontent.com/u/8514816?v=3&s=140
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yangzz0.github.io
@@ -47,7 +47,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: 随笔
 category_map:
 tag_map:
 
