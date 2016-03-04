@@ -66,7 +66,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: hexo-theme-freemind.386
+# theme: hexo-theme-freemind.386
+theme: hexo-theme-next-0.4.5.2
 # theme: yinwang
 
 # Deployment
