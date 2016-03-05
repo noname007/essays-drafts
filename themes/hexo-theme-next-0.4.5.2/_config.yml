@@ -2,13 +2,23 @@
 menu:
   home: /
   categories: /categories
-  about: /about
+  about: /about/memo.html
   archives: /archives
   tags: /tags
   commonweal: /404.html
 
-    
+jiathis: true
+# disqus_shortname: soul11201
 duoshuo_shortname: soul11201
+duoshuo_hotartical: true
+since: 2015
+
+
+# title, chinese available
+links_title: Links
+# links
+# links:
+  # MacTalk: http://macshuo.com/
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -51,7 +61,7 @@ custom_logo:
 # Code Highlight theme
 # Available value: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night
+highlight_theme: normal
 
 
 # MathJax Support
@@ -87,7 +97,7 @@ toc:
 
 # Automatically Excerpt
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Use Lato font
