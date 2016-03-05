@@ -76,9 +76,12 @@ deploy:
   - type: git
     repo: git@github.com:yangzz0/yangzz0.github.io.git
     branch: master
+  # - type: git
+  #   repo: git@gitcafe.com:soul11201/soul11201.git
+  #   branch: gitcafe-pages
   - type: git
-    repo: git@gitcafe.com:soul11201/soul11201.git
-    branch: gitcafe-pages
+    repo: git@git.coding.net:noname007/soul11201.git
+    branch: master
 
 sitemap:
     path: sitemap.xml
