@@ -6,7 +6,7 @@ date: 2015-08-04 18:14:42
 ---
 
 
-#sort
+## sort
 
 |参数 |含义   |
 |-----|-------|
@@ -14,13 +14,13 @@ date: 2015-08-04 18:14:42
 |`-n `  |按照数字比较，默认字典序排序|
 
 
-#du 
+## du 
 - `du -sh *` 
  统计当前文件夹下各个文件的大小
 - `du -shm *` 
  统计当前文件夹下各个文件的大小,以`M` 为单位。`-shk` 以 `KB`为单位
 
-#locate
+## locate
 {% blockquote %}
 linux 下可以使用 locate 和 find 来查找文件,但是 locate 在定位时要比 find 快.
 
@@ -43,7 +43,7 @@ locate 并不是穿梭于档案文件中查找,而是在**数据库**查找文�
 **参考**
 - [locate 在linux下快速定位文档](http://yijiebuyi.com/blog/58d0b9eec7f18769439f388a8037c151.html)
 
-#问题总结 FAQ
+## 问题总结 FAQ
 
 1. crontab不执行问题
 {% blockquote %}

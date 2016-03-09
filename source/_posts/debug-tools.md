@@ -4,27 +4,29 @@ tags:
 date: 2015-09-23 18:22:00
 ---
 
-##☆ gdb
+## ☆ gdb
 启动gdb后
 
-b breakpoint 断点
-p print 打印
-r 
-attach
-watch
-c
-bt
-up
-list
-info macro NGX_OK
-macro expand
+|参数|含义|
+|-----|---|
+|b/breakpoint | 断点
+|p print    | 打印输出变量|
+|r ||
+|attach||
+|watch||
+|c||
+|bt||
+|up||
+|list||
+|info macro| 例 info macro NGX_OK|
+|macro expand||
 
 
-##☆ ulimit
+## ☆ ulimit
 -c 
 unlimited
 
-##☆ tcpdump
+## ☆ tcpdump
 
 |选项|含义|
 |---|---|
