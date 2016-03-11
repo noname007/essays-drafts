@@ -7,7 +7,7 @@ menu:
   tags: /tags
   # commonweal: /404.html
 
-jiathis: true
+# jiathis: true
 # disqus_shortname: soul11201
 duoshuo_shortname: soul11201
 duoshuo_hotartical: true
@@ -107,7 +107,7 @@ use_font_lato: true
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
+  ua_enable: false
   admin_enable: false
   user_id: 0
   #admin_nickname: ROOT
@@ -120,7 +120,7 @@ social:
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
-  enable: true
+  enable: false
   app_id:       #<app_id>
   fb_admin:     #<user_id>
   like_button:  #true
