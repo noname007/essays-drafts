@@ -20,6 +20,7 @@ rtmp 笔记:
 - [【译】How to set up your own private RTMP server using nginx](/2015/08/12/How-to-set-up-your-own-private-RTMP-server-using-nginx/)
 - [nginx 点播](/2015/08/17/vod/)
 - [nginx-rtmp-module 总结](2015/09/06/rtmp/)
+- [做的一次简单内部分享](http://p1.soul11201.com/remark-presentation/#1)
 
 {% endblockquote %}
 
