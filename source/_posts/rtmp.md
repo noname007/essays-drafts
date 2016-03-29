@@ -22,7 +22,7 @@ date: 2015-09-06 00:00:00
 |static|静态化，会在nginx 启动的时候创建|
 
 
-##rtmp 指令---中继（relay）
+## 中继（relay）
     Syntax: pull url [key=value]*
     Context: application
 
@@ -39,10 +39,64 @@ Url 语法: `[rtmp://]host[:port][/app[/playpath]]`.
 
     pull rtmp://192.168.1.129/live/test name=ted;
 
+## hls
 
-##Notify相关指令
+### hls_type
+播放列表中的多个播放片段 `event  从第一开始播放` `live 从当前片段开始播放`|
+
+<!-- 播放列表什么个意思？
+有什么参数配置？代表什么意思？ -->
+### hls_keys 
+
+对所有的hls片段启用aes-128加密，默认不使用加密。同时nginx编译的时候需要配置 `--with-http_ssl_module`  对https的支持。
+
+密钥的位置可以在本地hls_key_path，也可以是网络文件hls_key_url。
+
+也可以用 hls_fragments_per_key 指定一个密钥可以加密多少hls片段
+
+
+
+
+
+hls_path
+: 设置playlist和视频片段存放位置
+
+hls_fragment
+: 视频片段长度 默认是5s
+
+hls_playlist_length
+: 播放列表长度，默认是30s视频长度
+
+hls_syn
+: 时间戳同步阈值默认是2ms,当从低分辨率向高分辨路转换的的时候可以去噪，low-resolution RTMP (1KHz) to high-resolution MPEG-TS (90KHz|
+
+hls_continuous:
+: 序列号连续模式上次停止的时候序列号开始
+
+hls_nested
+: 嵌套模式 是否为每一个流创建一个子目录
+
+hls_base_url
+: 指定播放列表url，默认为空
+
+hls_cleanup
+: 清理播放列表和视频片段缓存
+
+hls_fragment_naming
+: 视频片段命名 1.流时间戳，2.自增整数 3.系统时间戳
+
+hls_fragment_naming_granularity
+: 设置视频片段ids间隔，默认是0
+
+hls_fragment_slicing
+: 分片模式    1.plain 2.align
+
+
+
+
+## Notify相关指令
 主要用于回调通知
-###on_connect
+### on_connect
 
     nginx 块: rtmp, server
 
@@ -57,7 +111,7 @@ Url 语法: `[rtmp://]host[:port][/app[/playpath]]`.
 HTTP请求默认使用POST方法。
 
 
-###on_play
+### on_play
 与on_connect 类似，只是返回结果为 `3xx`的时候需要指定新的流名称
 
 
