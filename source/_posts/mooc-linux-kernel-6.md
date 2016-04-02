@@ -129,5 +129,58 @@ flags是进程当前的状态标志，具体的如：
 |prio |用于保存动态优先级。|
 |policy |表示进程的调度策略，目前主要有五种[^ref1]|
 
+其他的还有一些代码介绍可以参考文档[^ref1][^ref2]
+
+## 创建一个新进程在内核中的执行过程
+一个用户程序进行fork进程代码样例如下所示：
+```C
+int Fork(int argc,char*argv[])
+{                          
+        int pid;           
+        pid = fork();      
+        if(pid<0)          
+        {                  
+                fprintf(stderr,"ForkFailed");
+                           
+        }else if(pid == 0){ 
+                printf("this is child process pid:%d\n",getpid());
+        }else{             
+                printf("this is Parent Process! pid:%d child pid:%d\n",getpid(),pid);
+                wait(NULL);
+                printf("Child Complete\n");
+        }                  
+}
+```
+
+上述代码运行的模型大致如下：
+
++ 使用fork、vfork、clone 三个系统调用创建一个新进程，最终都是调用do_fork完成进程的创建
++ 复制父进程
+	- 复制一个PCB 即`task_struct  err = arch_dup_task_struct(tsk, orig);`
+	- 分配新的内核堆栈
+	```C
+	ti = alloc_thread_info_node(tsk, node);
+
+	tsk->stack = ti;
+
+	setup_thread_stack(tsk, orig); //这里只是复制thread_info，而非复制内核堆栈
+	```
+	- 修改复制复制过来的PCB数据，如pid,进程链表，见`copy_process`函数
+
++ 父子进程运行 
+    从用户的代码来看函数`fork`返回了两次，即在父子进程中各返回一次，父进程从系统调用中返回比较容易理解。子进程从系统调用中返回，继续从`fork`处执行，Linux是如何做到的呢？这就涉及子进程的`内核堆栈数据状态`和`task_struct`中`thread`记录的`sp`和`ip`的一致性问题，这是在哪里设定的？copy_thread in copy_process
+```C
+*childregs = *current_pt_regs(); //复制内核堆栈
+
+childregs->ax = 0; //为什么子进程的fork返回0，这里就是原因！
+
+p->thread.sp = (unsigned long) childregs; //调度到子进程时的内核栈顶
+
+p->thread.ip = (unsigned long) ret_from_fork; //调度到子进程时的第一条指令地址
+```
+## 嵌入到MenuOs,gdb运行调试遇到的问题
+1. 执行fork后，进程停止在了子进程，如何发现的呢？利用上次系统调用作业`getpid()`查看进程pid发现的。
+2. gdb 无法加载进去符号表，还没找到好的解决方法 
+
 [^ref1]: http://blog.csdn.net/npy_lp/article/details/7292563
 [^ref2]: http://www.2cto.com/os/201201/116810.html
