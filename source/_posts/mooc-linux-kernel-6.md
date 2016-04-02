@@ -178,9 +178,52 @@ p->thread.sp = (unsigned long) childregs; //调度到子进程时的内核栈顶
 
 p->thread.ip = (unsigned long) ret_from_fork; //调度到子进程时的第一条指令地址
 ```
+## gdb　跟踪调试程序
+
+程序调用顺序如下所示以缩进格式表示：
+{%blockquote%}
+- sys_fork
+ + do_fork
+  - copy_process
+   - dup_task_struct　复制父进程PCB信息
+     + alloc_thread_info_node　　分配进程内核堆栈
+     + arch_dup_task_struct　　　　直接父子进程共享，写时复制
+   - copy_thread　　
+{%endblockquote%}
+
+### gdb调试——断点相关一些指令
+
+
+
+|||
+|--|--|
+|b/break|设置断点|
+|info breakpoints| 查看当前设置的断点信息|
+|disable|断点无效，单还是存在|
+|enable|断点有效，这两个属于使能指令|
+|clear/delete|两条指令有点不同，delete 更凶猛一些|
+|print|打印变量或表达式当前的值|
+|whatis|显示某个变量或表达式值的数据类型|
+| set variable 变量=值 |给变量赋值,以上命令参考[^4]|
+|save breakpoint |保存设置的断点到文件,读取断点设置在启动gdb的时候使用-x选项指定断点设置文件[^ref3]|
+|help|帮助，可用于查询指令的详细用法|
+
+
+
 ## 嵌入到MenuOs,gdb运行调试遇到的问题
 1. 执行fork后，进程停止在了子进程，如何发现的呢？利用上次系统调用作业`getpid()`查看进程pid发现的。
 2. gdb 无法加载进去符号表，还没找到好的解决方法 
+　原来编译的时候配置有问题，没办法进行跟踪调试，根据第二节的课程文档重新编译了一遍就OK了。根据文档制作了一个[Makefile](/attach.d/moocOsEnvBuild.makefile)，下载到一个新文件夹执行　`make -f moocOsEnvBuild.makefile install` 确保terminal窗口大小大于`80*19`,并且会弹出来一个窗口记得开启下列选项
+
+```shell
+	kernel hacking—>Compile.....
+	[*] compile the kernel with debug info
+```
+
+等待编译完成，进入menu文件夹执行`make qemu`直接启动MenuOs或者`make qemu-gdb`启动MenuOs并且使用gdb跟踪调试
 
 [^ref1]: http://blog.csdn.net/npy_lp/article/details/7292563
 [^ref2]: http://www.2cto.com/os/201201/116810.html
+[^ref3]: http://jingyan.baidu.com/article/f3ad7d0fff191509c3345bd1.html
+[^ref4]: http://www.cnblogs.com/rosesmall/archive/2012/04/13/2445527.html
+
