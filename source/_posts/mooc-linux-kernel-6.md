@@ -232,7 +232,13 @@ break copy_thread
 ## 嵌入到MenuOs,gdb运行调试遇到的问题
 1. 执行fork后，进程停止在了子进程，如何发现的呢？利用上次系统调用作业`getpid()`查看进程pid发现的。
 2. gdb 无法加载进去符号表，还没找到好的解决方法 
-　原来编译的时候配置有问题，没办法进行跟踪调试，根据第二节的课程文档重新编译了一遍就OK了。根据文档制作了一个[Makefile](/attach.d/moocOsEnvBuild.makefile)，下载到一个新文件夹执行　`make -f moocOsEnvBuild.makefile install` 确保terminal窗口大小大于`80*19`,并且会弹出来一个窗口记得开启下列选项
+　原来编译的时候配置有问题，没办法进行跟踪调试，根据第二节的课程文档重新编译了一遍就OK了。根据文档制作了一个[Makefile](/attach.d/moocOsEnvBuild.makefile)，下载到一个新文件夹执行
+
+```shell
+wget http://blog.soul11201.com/attach.d/moocOsEnvBuild.makefile && make -f moocOsEnvBuild.makefile install
+```
+
+确保terminal窗口大小大于`80*19`,并且会弹出来一个窗口记得开启下列选项
 
 ```shell
 	kernel hacking—>Compile.....
