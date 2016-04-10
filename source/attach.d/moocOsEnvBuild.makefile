@@ -1,6 +1,7 @@
 # 下载内核源代码编译内核
 
 mdir:
+	sudo apt-get install libncurses5-dev
 	#test -d 'LinuxKernel' || mkdir LinuxKernel 
 
 linux: mdir
@@ -15,7 +16,7 @@ linux: mdir
 
 menu: mdir
 	#cd LinuxKernel &&\
-	test -d 'menu' || git clone https://github.com/noname007/menu.git \
+	test -d 'menu' || git clone https://github.com/noname007/menu.git
 clean:
 	rm -fr linux-3.18.6/
 install: menu linux
