@@ -1,7 +1,8 @@
 # 下载内核源代码编译内核
 
 mdir:
-	sudo apt-get install libncurses5-dev
+	sudo apt-get install libncurses5-dev qemu
+	test -f /usr/bin/qemu || sudo ln -s /usr/bin/qemu-system-i386 /usr/bin/qemu
 	#test -d 'LinuxKernel' || mkdir LinuxKernel 
 
 linux: mdir
