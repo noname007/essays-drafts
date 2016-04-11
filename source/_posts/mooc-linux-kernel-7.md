@@ -54,7 +54,15 @@ ELF格式的目标文件种类[^meihuaxiaozhu],[^ziwoxiuyang]
 
 ## 动态链接库的这两种使用方式
 
-## gdb跟踪`execve`系统调用
+## gdb跟踪`execve`系统调用 --- 可执行程序的装载过程 
+
+设置断点
+ 
+ ```gdb
+ b sys_execve
+ b load_elf_binary
+ b start_thread
+ ```
 
 从哪里开始执行的
 
