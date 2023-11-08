@@ -82,12 +82,12 @@ deploy:
   # - type: git
   #   repo: git@gitcafe.com:soul11201/soul11201.git
   #   branch: gitcafe-pages
-  - type: git
-    repo: git@git.coding.net:noname007/soul11201.git
-    branch: master
-  - type: git
-    repo: git@bitbucket.org:noname007/noname007.bitbucket.org.git
-    branch: master
+  #- type: git
+  #  repo: git@git.coding.net:noname007/soul11201.git
+  #  branch: master
+  #- type: git
+  #  repo: git@bitbucket.org:noname007/noname007.bitbucket.org.git
+  #  branch: master
 
 sitemap:
     path: sitemap.xml
