@@ -1,9 +1,12 @@
 ---
 title: 调试工具
 layout: post
+category:
+    - 技术
 tags: 
-- gdb
-- 工具
+    - gdb
+    - tcpdump
+    - ulimit
 date: 2015-09-23 18:22:00
 ---
 

@@ -2,11 +2,10 @@
 title: Linux 高性能服务器编程 
 layout: post
 date: 2015-10-14 17:40:49
+categories:
+- [技术,lnmp]
 tags:
-- linux
-- c
-- 笔记
-- 摘抄
+- 网络编程
 ---
 ##IO 复用函数
 ##定时器
