@@ -1,7 +1,11 @@
 ---
 layout: post
-title:  emacs-email
+title:  在 Emacs 中读邮件
 date:   2020-11-16 12:23:30 +0800
+categories:
+- 技术
+tags:
+- Emacs
 ---
 
 

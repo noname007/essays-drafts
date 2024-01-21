@@ -2,7 +2,10 @@
 layout: post
 title:  "jekyll 搭建小记"
 date:   2016-11-11 19:59:19 +0800
-categories: notes
+categories:
+- 技术
+tags:
+- jekyll
 published: true
 ---
 

@@ -8,7 +8,8 @@ tags:
 - 调试
 - 总结
 - 工具
-categories: notes
+categories:
+- [技术,OpenResty]
 published: true
 ---
 * 目录

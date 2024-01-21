@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  rust 泛型
+title:  Rust 泛型
 date:   2020-12-18 20:05:26 +0800
+categories:
+- 技术
 tags:
-- rust
+- Rust
 ---
 
 所有权

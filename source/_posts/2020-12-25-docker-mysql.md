@@ -2,6 +2,10 @@
 layout: post
 title:  docker-mysql
 date:   2020-12-25 16:38:47 +0800
+categories:
+- 技术
+tags:
+- Docker
 ---
 
 

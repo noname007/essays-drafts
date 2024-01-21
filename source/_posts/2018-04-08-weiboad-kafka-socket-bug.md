@@ -2,7 +2,8 @@
 layout: post
 title:  "weiboad-kafka-socket-bug"
 date:   2018-04-08 12:19:47 +0800
-categories: notes
+categories:
+- [技术,PHP]
 tags:
 - 调试
 - weiboad/kafka

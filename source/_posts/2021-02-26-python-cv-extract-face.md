@@ -2,6 +2,10 @@
 layout: post
 title:  python 视频流提取人脸
 date:   2021-02-26 12:50:54 +0800
+categories:
+- 音视频
+tags:
+- Python
 ---
 
 

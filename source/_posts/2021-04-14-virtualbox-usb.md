@@ -2,6 +2,10 @@
 layout: post
 title:  arch virtualbox 中 win7  无法识别 usb 
 date:   2021-04-14 16:27:01 +0800
+categories:
+- 技术
+tags:
+- ArchLinux
 ---
 
 

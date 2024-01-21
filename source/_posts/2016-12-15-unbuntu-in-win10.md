@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "window 10 中安装Ubuntu"
+title:  "Window 10 中安装Ubuntu"
 date:   2016-12-15 12:45:23 +0800
 categories:
-- notes
-tags: [windows subsystem, 总结]
+- 技术
+tags: [windows subsystem,Ubnutu]
 published: true
 ---
 * 目录

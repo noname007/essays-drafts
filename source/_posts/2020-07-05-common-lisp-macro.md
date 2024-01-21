@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  common lisp - macro
+title:  Common Lisp - macro
 date:   2020-07-05 19:15:44 +0800
-tags: [common lisp, macro]
+categories:
+- 技术
+tags: 
+- CommonLisp
 ---
 
 ##  数据类型 ##

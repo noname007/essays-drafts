@@ -2,13 +2,11 @@
 layout: post
 title:  "korasaju算法的粗浅理解"
 date:   2013-04-29 12:14:28 +0800
+categories: 
+- 技术
 tags:
-- data structure
 - 算法
 - 数据结构
-- 总结
-
-categories: 
 ---
 
 首先证明一些这句话： `逆图中能根据u搜到的点v，说明原图中v可以到达u，而原图中v一定是u树中的结点，也就是说u可到达v,从而一定能形成强连通分支。`

@@ -2,6 +2,11 @@
 layout: post
 title:  cocurrency-simple-speak
 date:   2021-01-16 12:17:21 +0800
+categories:
+- 技术
+tags:
+- PHP
+- JavaScript
 ---
 
 

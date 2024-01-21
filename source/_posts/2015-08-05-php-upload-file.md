@@ -2,28 +2,33 @@
 title: PHP文件上传
 layout: post
 date: 2015-08-05 19:07:02
-tags: 
-- php
-- nginx
-- 配置
+categories:
+- [技术,PHP]
+tags:
+- PHP
+- Nginx
 ---
 
-上传一个213M的文件的时候一直报IOerror。首先想到的是php上传文件大小的限制，改为300兆后，不起作用，就感觉是上传的的时候脚本执行的时间太长了，就修改`max_input_time` 为6000 还是不起作用，琢磨是不是`max_input_time`解析数据的时间出了问题，最后发现也不是，原来是nginx设置的太小了，改为500m,问题立马解决了。
+{% note success %}
+   工程问题的排查过程，就是渐进明细，分而治之的过程。不断缩小问题范围，直到解决问题。
+{% endnote %}
+
+上传文件一直报 `IOerror`错误，大小`213M`。 
+
+PHP 上传文件大小的限制，改为300兆后，不起作用。上传时，脚本执行的时间很长，调大 PHP  `max_input_time`  配置项为6000 后, w问题还是不解决。修改 Nginx `client_max_body_size` 为`500M`, 问题立马解决了。
 
 php 和 nginx 设置如下
 
 
 ngxin server 里面配置如下
-```lisp
+```nginx
    server{
-        ***
-        client_max_body_size 1000M;
-        ****
+      client_max_body_size 1000M;
    }
 ```
 
 php.ini 配置如下
-```lisp
+```ini
 file_uploads = On ;是否允许通过HTTP上传文件的开关。默认为ON即是开
 upload_max_filesize = 500M ;上传文件上限 
 upload_tmp_dir ;文件上传至服务器上存储临时文件的地方，如果没指定就会用系统默认的临时文件夹。

@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  软件构建系统
+categories:
+- [技术,架构设计]
 date:   2020-11-16 17:42:08 +0800
 ---
 

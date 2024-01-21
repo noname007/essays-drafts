@@ -2,6 +2,12 @@
 layout: post
 title:  Yii2 、socket 与 多进程
 date:   2021-06-20 15:31:40 +0800
+categories:
+- [技术,PHP,Yii2]
+tags:
+- Yii2
+- PHP
+- socket
 ---
 
 * 目录

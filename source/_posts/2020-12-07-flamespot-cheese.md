@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Linux 截图 拍照神器 flamespot 、 cheese
+title:  Linux 截图 拍照神器 Flamespot 、 cheese
 date:   2020-12-07 11:25:37 +0800
+categories:
+- 技术
 tags:
 - 技术
-- kde
-- plasma
-- flameshot
-- keyshorts
+- jpegoptim
+- Flamespot
 - 快捷键
 ---
 
@@ -17,7 +17,7 @@ tags:
 sudo pacman -S flameshot cheese
 ```
 
-## 设置 flamespot 截图快捷键 ##
+## 设置 Flamespot 截图快捷键 ##
 
 ![](/assets/2020-12-07_11-21.png)
 ![](/assets/2020-12-07_11-23.png)

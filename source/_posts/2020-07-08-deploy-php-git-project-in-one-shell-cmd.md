@@ -2,6 +2,11 @@
 layout: post
 title: 一条命令部署项目到开发机
 date:   2020-07-08 11:18:04 +0800
+categories:
+- 技术
+tags: 
+- Git
+- Shell
 ---
 * 目录
 {:toc}

@@ -2,8 +2,11 @@
 layout: post
 title:  docker-manjaro
 date:   2020-12-08 12:32:57 +0800
+categories:
+- 技术
 tags:
 - docker
+- Manjaro
 ---
 
 ### 基础 ###

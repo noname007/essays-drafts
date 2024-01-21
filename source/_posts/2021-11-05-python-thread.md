@@ -2,9 +2,11 @@
 layout: post
 title:  Python 多线程处理任务
 date:   2021-11-05 20:13:32 +0800
+categories:
+    - 技术
 tags:
-  - Python
-  - thread
+    - Python
+    - thread
 ---
 
 美餐每天发一个用Excel汇总的就餐数据，我们把它导入到数据库后，行政办公服务用它和公司内的就餐数据进行比对查重。

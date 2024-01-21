@@ -2,9 +2,10 @@
 layout: post
 title:  "单片机：数码管显示0到9实验"
 date:   2013-03-14 12:14:28 +0800
-tags:
-- 汇编
 categories: 
+- [技术,汇编]
+tags:
+- 汇编 
 ---
 
 收获：

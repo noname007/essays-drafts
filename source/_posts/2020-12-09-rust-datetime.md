@@ -2,8 +2,10 @@
 layout: post
 title:  rust datetime
 date:   2020-12-09 22:45:14 +0800
+categories:
+- 技术
 tags:
-- rust
+- Rust
 - datetime
 ---
 

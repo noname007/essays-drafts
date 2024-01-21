@@ -2,7 +2,8 @@
 layout: post
 title:  "git submodule 笔记"
 date:   2016-06-08 12:14:28 +0800
-categories: git submodule
+categories:
+    - [技术,Git]
 ---
 
 1 .   添加 submodule

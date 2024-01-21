@@ -2,8 +2,10 @@
 layout: post
 title:  行政服务积分系统设计总结
 date:   2021-11-30 19:29:36 +0800
+categories:
+  - [技术,架构设计]
 tags:
-    - lavanna
+  - Lavanna
 ---
 * 目录
 {:toc}

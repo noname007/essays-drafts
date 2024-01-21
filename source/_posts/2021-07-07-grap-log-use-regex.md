@@ -2,6 +2,12 @@
 layout: post
 title:  零宽断言
 date:   2021-07-07 18:52:45 +0800
+categories:
+- 技术
+tags:
+- 正则
+- Ruby
+
 ---
 
 `\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d (.*\n)*?(?=\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d)`

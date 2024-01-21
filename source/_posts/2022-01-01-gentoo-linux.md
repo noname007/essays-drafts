@@ -2,6 +2,9 @@
 layout: post
 title:  gentoo-linux
 date:   2022-01-01 04:09:02 +0800
+categories:
+- 技术
+published: false
 ---
   * 为什么需要
   * phpstorm

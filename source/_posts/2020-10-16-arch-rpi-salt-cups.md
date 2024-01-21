@@ -1,7 +1,15 @@
 ---
 layout: post
-title:  基于树莓派 + ArchLinux + Cups + Saltstack的打印管理
+title:  基于树莓派 + ArchLinux + Cups + Saltstack的打印机管理
 date:   2020-10-16 14:59:00 +0800
+categories:
+- [技术,架构设计]
+tags:
+- 树莓派
+- ArchLinux
+- Cups
+- Saltstack
+- 打印机
 ---
 
 * 目录

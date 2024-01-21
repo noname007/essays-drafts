@@ -2,13 +2,11 @@
 layout: post
 title:  "二分查找"
 date:   2013-04-06 12:14:28 +0800
-tags:
-- c
-- data structure
-- ds
-- 数据结构
-- 算法
 categories: 
+- 技术
+tags:
+- C
+- 算法
 ---
 
 ```c

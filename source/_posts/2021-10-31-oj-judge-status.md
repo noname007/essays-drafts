@@ -2,6 +2,8 @@
 layout: post
 title: OJ常见的Judge Status
 date:   2013-02-27 10:33:06 +0800
+categories:
+- OJ
 ---
 
 Queuing : 提交太多了，OJ无法在第一时间给所有提交以评判结果，后面提交的程序将暂时处于排队状态等待OJ的评判。不过这个过程一般不会很长。

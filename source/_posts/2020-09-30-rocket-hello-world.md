@@ -2,9 +2,11 @@
 layout: post
 title:  Rust Rocket -- Hello World
 date:   2020-09-30 16:00:59 +0800
+categories:
+- 技术
 tags: 
-- rust
-- rocket
+- Rust
+- Rocket
 ---
 
 * 目录

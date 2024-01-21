@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  common lisp - 函数
+title:  Common Lisp - 函数
 date:   2020-06-28 13:56:36 +0800
-tags: [common lisp,  函数]
+categories:
+- 技术
+tags: 
+- CommonLisp
 ---
 
 * 目录

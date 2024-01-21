@@ -2,10 +2,10 @@
 layout: post
 title:  "c 中的 forward-declare"
 date:   2017-03-31 18:13:27 +0800
+categories:
+- [技术,C]
 tags:
-- c
-- 技术
-categories: notes
+  - C
 published: true
 ---
 * 目录

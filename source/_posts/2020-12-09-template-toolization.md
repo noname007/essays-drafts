@@ -2,9 +2,11 @@
 layout: post
 title: 利用工具生成 dcron 任务 
 date: 2020-12-09 13:58:32 +0800
+categories:
+- 技术
 tags: 
 - 工具
-- rust
+- Rust
 ---
 
 `模板问题工具化`

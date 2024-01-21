@@ -2,8 +2,10 @@
 layout: post
 title:  使用 emacs projectile magit 管理项目代码
 date:   2020-12-16 16:29:37 +0800
+categories:
+- 技术
 tags:
-- emacs
+- Emacs
 - projectile
 - magit
 ---

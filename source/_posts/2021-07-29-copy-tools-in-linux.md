@@ -2,6 +2,10 @@
 layout: post
 title:  Copy Linux Tool
 date:   2021-07-29 15:53:45 +0800
+categories:
+- [技术,Shell]
+tags:
+- rsync
 ---
 
 把一台机器上的redis-cli 拷贝到另外一台机器上并使用：

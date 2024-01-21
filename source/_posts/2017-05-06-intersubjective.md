@@ -2,7 +2,6 @@
 layout: post
 title:  "互为主体, 舆论"
 date:   2017-05-06 13:55:49 +0800
-categories: notes
 tags: [摘抄,反思]
 published: false
 ---

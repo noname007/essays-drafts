@@ -2,9 +2,11 @@
 layout: post
 title:  python 更新 git 项目
 date:   2020-12-13 13:48:56 +0800
-tags:
+categories:
 - 技术
-- python
+tags:
+- Rust
+- Python
 ---
 
 在目录 `/home/soul11201/code/emacs` 下面放了很多 `elpa` 没有管理的 gihub上的 emacs lisp 包，每次更新都需要手动更新挺费事。

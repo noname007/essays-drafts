@@ -2,7 +2,8 @@
 layout: post
 title:  "(= (PHP require) 引起的 SIGBUS)"
 date:   2017-06-28 17:33:27 +0800
-categories: notes
+categories: 
+- [技术,PHP]
 published: true
 tags:
 - php
