@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "7.1.0"
+    "version": "7.2.0"
   },
   "dependencies": {
-    "grunt": ">=1.5.3",
     "hexo": "^7.1.0",
     "hexo-deployer-git": "4.0.0",
+    "hexo-douban-card": "^1.4.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
@@ -22,6 +22,7 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-tag-bootstrap": "0.2.2",
+    "hexo-tag-embed": "^1.0.0",
     "hexo-theme-fluid": "^1.9.7",
     "nib": "^1.2.0",
     "stylus": "^0.62.0"

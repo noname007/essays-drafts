@@ -28,9 +28,8 @@ date: 2016-04-08 19:09:41
 
 ![][build-png]
 
-[build-png]: /imgs/gcc-build-process-1.png "生成可执行程序的过程" { width=100%}
+[build-png]: /imgs/gcc-build-process-1.png "生成可执行程序的过程" { width=100%}[^zhihu]
 
-<!-- [^zhihu] -->
 
 [^zhihu]: [linux中的动态链接库，和静态链接库是干什么的？](https://www.zhihu.com/question/20484931)
 

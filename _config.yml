@@ -3,12 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-# title: 焖
 title: coder 随想录
 # title: 随笔录
 subtitle: 好习惯受益终生
-description:  好记性不如烂笔头
-# blog;笔记;总结;摘抄
+description:  
 author: soul11201
 language: zh-CN
 timezone: Asia/Shanghai
@@ -124,4 +122,4 @@ plugins:
 # daemonize: true
 #  htmlize: true
 toc:
-  maxDepth: 2
+  maxDepth: 3
