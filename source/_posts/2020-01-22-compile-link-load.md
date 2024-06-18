@@ -7,6 +7,7 @@ categories:
 tags:
 - C
 published: true
+description: "编译动态链接库"
 ---
 
 
