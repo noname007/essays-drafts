@@ -2,11 +2,15 @@
 title: MonaServer 使用笔记
 layout: post
 date: 2015-11-11 19:54:48
-categories:
-- 音视频
+categories: 
+   - 技术
 tags:
-- monaserver
+   - 音视频
+
+description: " "
+
 ---
+
 ## 安装
 **windows**
 1. [点击下载运行包][link2]

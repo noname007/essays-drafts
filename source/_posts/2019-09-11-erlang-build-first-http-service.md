@@ -4,7 +4,9 @@ title:  使用 erlang 构建一个 http 服务
 date:   2019-09-11 17:55:18 +0800
 categories:
 - [技术]
-tags: [erlang, http]
+tags:
+- Erlang
+description: 使用 erlang 构建一个 http 服务
 ---
 
 

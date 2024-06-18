@@ -5,14 +5,10 @@ date:   2018-04-03 20:10:37 +0800
 categories: 
 - [技术,PHP]
 tags:
-- Laravel
 - PHP
 published: true
 author: soul11201
 ---
-* 目录
-{:toc}
-
 
 ## 为什么要使用 Query Builder
 

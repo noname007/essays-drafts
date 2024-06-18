@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 琐事、工具
+title: 定制 Yii2 框架
 date: 2020-05-04 18:15:04 +0800
 categories:
-- [技术,架构设计]
+- 随笔
 tags:
-- 理念
-- 琐事
-- 工具
+- 工作流
+- Yii2
+description: 构建自己的工作流
 ---
 
 今天写了[几行代码](https://github.com/noname007/framework-over-yii2/commit/35a589fa6f6bc2b352ca3ce3b25b2ac2634f7a68)，基于对框架模板的管用习惯封装了一个更贴合自己习惯、用法的框架。

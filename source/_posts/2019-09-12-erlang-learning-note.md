@@ -4,7 +4,9 @@ title:  Erlang 学习笔记
 date:   2019-09-12 20:22:36 +0800
 categories: 
 - 技术
-tags: [erlang]
+tags: 
+- Erlang
+description: Erlang 学习笔记
 published: true
 ---
 

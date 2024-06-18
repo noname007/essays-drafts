@@ -5,7 +5,7 @@ categories:
   - 技术
 tags:
   - Docker
-  - Gitlab
+  - CI/CD
 date: 2024-06-04 15:23:30
 description: 改造公司基础设施
 ---

@@ -6,8 +6,7 @@ categories:
 - 技术
 tags:
 - Emacs
-- projectile
-- magit
+description: " "
 ---
 
 如丝般顺滑

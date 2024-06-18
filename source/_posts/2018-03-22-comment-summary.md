@@ -3,9 +3,9 @@ layout: post
 title:  "对评论系统设计的一点总结"
 date:   2018-03-22 20:15:26 +0800
 categories:
-- [技术,架构设计]
+- [技术]
 tags: 
-- 评论系统
+- 系统设计
 published: true
 author: soul11201
 ---

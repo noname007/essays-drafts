@@ -5,8 +5,7 @@ categories:
   - 翻译
 tags:
   - 翻译
-  - rtmp
-  - Nginx
+  - 音视频
 date: 2015-08-12 17:20:51
 ---
 

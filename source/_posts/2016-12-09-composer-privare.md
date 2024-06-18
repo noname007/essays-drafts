@@ -3,11 +3,8 @@ layout: post
 title:  "使用composer vcs 构建私有资源库"
 date:   2016-12-09 10:21:09 +0800
 tags:
-- composer
 - PHP
-- 包管理
-- 工具
-- 总结
+- CI/CD
 categories: 
 - [技术,PHP]
 published: true

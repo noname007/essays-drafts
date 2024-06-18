@@ -1,10 +1,7 @@
+---
 title: 寻找大素数
 date: 2015-10-25 13:49:37
-
-categories:
-	- 笔记
-tags:
-	- 素数
+description: " "
 ---
 
 {% note success %}

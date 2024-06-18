@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  docker-mysql
+title:  Docker 构建 Mysql 开发环境
 date:   2020-12-25 16:38:47 +0800
 categories:
 - 技术
 tags:
 - Docker
+description: " "
 ---
 
 
-
-
-``` dockerfile
+``` yaml
 version: "3.1"
 services: 
   db:
@@ -30,7 +29,7 @@ services:
 MySql 的 docker 镜像起来后，宿主机默认是无法访问的，需要添加授权。
 
 
-``` shell
+``` bash
 docker-compose  up --remove-orphans -d
 docker exec -it  my_db_dockername   /bin/sh
 mysql -uroot -h127.0.0.1 -p

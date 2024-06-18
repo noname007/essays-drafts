@@ -2,7 +2,9 @@
 layout: post
 title:  工作居住证
 date:   2022-03-25 13:09:03 +0800
-published: false
+categories:
+  -  随笔
+published: true
 ---
 
 [人才业务办理平台](https://fw.bjrcgz.gov.cn/person-platform/#/person-platform/overview)

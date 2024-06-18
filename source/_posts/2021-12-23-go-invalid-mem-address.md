@@ -5,11 +5,9 @@ date:   2021-12-23 16:56:36 +0800
 categories:
 - 技术
 tags:
-- Go
-- Kafka
+  - troubleshooting
+description: 线上故障排查笔记
 ---
-* 目录
-{:toc}
 
 ## 背景与过程 ##
 

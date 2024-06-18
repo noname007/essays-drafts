@@ -3,9 +3,10 @@ title: yii2 GridView 使用
 layout: post
 date: 2015-12-21 20:09:41
 categories:
-- [技术,PHP,Yii2]
+- [技术,PHP]
 tags: 
 - Yii2
+- PHP
 ---
 ## GridView是什么？能做什么？
 `GridView`是一个用于把数据显示在一个表格中的`yii2` `widget`

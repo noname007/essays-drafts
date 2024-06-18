@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  软件构建系统
+title:  持续集成
 categories:
 - [技术,架构设计]
+tags:
+- CI/CD
 date:   2020-11-16 17:42:08 +0800
+description: " "
 ---
 
 

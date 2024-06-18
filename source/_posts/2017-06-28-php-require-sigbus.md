@@ -6,15 +6,9 @@ categories:
 - [技术,PHP]
 published: true
 tags:
-- php
-- bug 分析
-- 信号
-- 技术
+- troubleshooting
 author: soul11201
 ---
-
-* 目录
-{:toc}
 
 ## sigbus coredump
 php中有这么一个[问题][bug-52752], 到2017年仍然没有解决。大概是这么一个问题运行下面这句 shell 就可能出现下面的coredump。

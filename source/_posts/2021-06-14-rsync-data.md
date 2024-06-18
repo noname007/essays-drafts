@@ -1,30 +1,28 @@
 ---
 layout: post
-title:  rsync-data
+title:  rsync 数据备份
 date:   2021-06-14 15:44:35 +0800
 published: true
 categories:
 - [技术,Shell]
 tags:
-- rsync
+- Linux
 ---
 
 
-
+```bash
 sshd
 ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key
 ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key
-
+```
 
 
 `rsync -avz username@mac_ip:file_path mobile_hdd_position`
 
 
-https://club.huawei.com/thread-20591979-1-1.html
-
-https://www.leiphone.com/category/gbsecurity/gumjRLa9F0eieKyZ.html
-
-https://einverne.github.io/post/2020/03/router-bottleneck.html
+- https://club.huawei.com/thread-20591979-1-1.html
+- https://www.leiphone.com/category/gbsecurity/gumjRLa9F0eieKyZ.html
+- https://einverne.github.io/post/2020/03/router-bottleneck.html
 
 
 

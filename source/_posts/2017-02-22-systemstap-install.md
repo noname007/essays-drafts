@@ -4,22 +4,17 @@ title:  "systemtap 安装 总结"
 date:   2017-02-22 17:28:45 +0800
 
 tags:
-- systemstap 
-- 调试
-- 总结
-- 工具
+- 
 categories:
-- [技术,OpenResty]
+- [技术]
 published: true
 ---
-* 目录
-{:toc}
 
-<!-- ## systemtap 是什么 -->
+## systemtap 是什么
 
 systemtap 是一个动态调试工具，春哥的一句话形容的很好，是一种线上活体检测技术。对于动态追踪技术的简述，参看[睿哥的文章][DTrace]，写的真好，不再赘述。
 
-<!-- ## 安装 -->
+## 安装
 
 如果从未接触过，安装还是挺头疼的。我这里做了一个[Makefile](https://github.com/noname007/script/blob/master/systemtap/Makefile)，执行一条命令，喝杯水，等一会可能就装好了 :) 。分别在`fedora 25`跟 `ubuntu 16.04`测试成功。
 
@@ -88,7 +83,7 @@ apt-get 方式
 
 ### tips
 
-<!-- 对，能做什么，原理不熟悉的可以参考 [ "内核探测工具systemtap简介"][systemtap_introduction]。 -->
+原理不熟悉的可以参考 [ "内核探测工具systemtap简介"][systemtap_introduction]
 
 安装完后一定要用下面的两句命令测试一下，安装是否成功。 两个都要测试一下，第一个只要systemtap 安装成功，就可以成功运行，第二个必须是内核调试镜像安装成功后才能成功运行
 

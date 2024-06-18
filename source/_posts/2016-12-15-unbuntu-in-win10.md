@@ -4,7 +4,8 @@ title:  "Window 10 中安装Ubuntu"
 date:   2016-12-15 12:45:23 +0800
 categories:
 - 技术
-tags: [windows subsystem,Ubnutu]
+tags:
+- 
 published: true
 ---
 * 目录

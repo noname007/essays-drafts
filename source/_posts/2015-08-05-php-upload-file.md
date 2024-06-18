@@ -6,7 +6,7 @@ categories:
 - [技术,PHP]
 tags:
 - PHP
-- Nginx
+- Nginx  
 ---
 
 {% note success %}

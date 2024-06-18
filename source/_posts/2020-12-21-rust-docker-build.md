@@ -6,14 +6,15 @@ categories:
 - 技术
 tags:
 - Rust
-- docker
+- Docker
+description: " "
 ---
 
 https://doc.rust-lang.org/cargo/reference/config.html 
 
 DockerFile
 
-``` dockerfile
+```yaml
 FROM rust:1.48.0
 
 WORKDIR /usr/src/myapp
@@ -27,7 +28,7 @@ CMD ["isc-event-display"]
 
 `filename: cargo_config`
 
-```toml 
+```ini
 [source.crates-io]
 registry = "https://github.com/rust-lang/crates.io-index"
 

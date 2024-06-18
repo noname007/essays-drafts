@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  docker-manjaro
+title:  Manjaro 安装 Docker
 date:   2020-12-08 12:32:57 +0800
 categories:
 - 技术
 tags:
-- docker
-- Manjaro
+- Docker
+description: " "
 ---
 
 ### 基础 ###

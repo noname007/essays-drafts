@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  Copy Linux Tool
+title:  redis-cli 
 date:   2021-07-29 15:53:45 +0800
 categories:
 - [技术,Shell]
 tags:
-- rsync
+- Linux
+description: 在不同的 Linux 主机间共享二进制可执行文件
 ---
 
 把一台机器上的redis-cli 拷贝到另外一台机器上并使用：

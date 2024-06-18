@@ -7,11 +7,7 @@ categories:
 
 tags:
 - 翻译
-- openresty
-- OOM
-- debug
-- strace
-- 
+- troubleshooting
 
 published: true
 ---

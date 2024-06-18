@@ -9,6 +9,7 @@ tags:
 - jpegoptim
 - Flamespot
 - 快捷键
+published: false
 ---
 
 ## Manjaro 上安装 ##

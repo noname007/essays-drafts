@@ -6,7 +6,6 @@ categories:
 - 技术
 tags:
 - C
-- GCC
 published: true
 ---
 

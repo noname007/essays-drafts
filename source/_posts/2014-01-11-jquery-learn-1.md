@@ -1,16 +1,18 @@
 ---
 layout: post
-title: juqery权威指南学习笔记-1
+title: jQery权威指南学习笔记
 date: 2014-01-11 09:50:49 +0800
 categories:
 - 技术
 tags:
-- jQuery
+- JS
+published: true
 ---
 
 基本上比着书上的程序照抄的一个程序.在runjs.cn上写的，感觉这个平台用来入门学习html,js,css感觉挺不错的，三种代码分别在不同的窗口写，显得比较清爽，其次还可以实时预览。因为
 
 把addClass写成了addclass,结果一直出错，没注意大小写，血淋淋的教训啊。
+
 ```js
     $(
     	
@@ -22,6 +24,7 @@ tags:
     }
     );
 ```
+
 ```css
     .divFrame{
     	width:260px;

@@ -4,13 +4,7 @@ layout: post
 categories:
 - [技术]
 tags:
-- Hexo
-- Emacs
-- Markdown
-- Fluid
-- Waline
-- Jekyll
-- Org
+- 静态blog
 description: 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处
 date: 2022-03-26 19:18:34
 ---

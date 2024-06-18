@@ -6,8 +6,6 @@ categories:
 - [技术,汇编]
 tags:
 - 汇编
-- 单片机
-- 8051
 
 published: true
 ---

@@ -1,20 +1,19 @@
 ---
 layout: post
-title:  零宽断言
+title:  零宽断言 - 跨行日志匹配
 date:   2021-07-07 18:52:45 +0800
 categories:
 - 技术
 tags:
-- 正则表达式
-- Ruby
-
+- troubleshooting
+description: 使用正则表达式，进行日志检索
 ---
 
 `\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d (.*\n)*?(?=\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d)`
 
 零宽度断言匹配的是一个位置
 
-```shell
+```irb
 
 #irb
 

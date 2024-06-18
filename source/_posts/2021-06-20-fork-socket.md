@@ -7,13 +7,9 @@ categories:
 tags:
 - Yii2
 - PHP
-- socket
+- 系统编程
+description: Yii2 、socket 与 多进程
 ---
-
-* 目录
-{:toc}
-
-
 
 前两周做 code review的时候发现同事用了许久不见的 pcntl 扩展，每个进程用来消费一个 redis channal 提高对消息处理的吞吐量。
 

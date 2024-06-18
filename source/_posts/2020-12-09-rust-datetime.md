@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  rust datetime
+title:  Rust 时间格式化
 date:   2020-12-09 22:45:14 +0800
 categories:
 - 技术
 tags:
 - Rust
-- datetime
+description: " "
 ---
 
 https://docs.rs/chrono/0.4.19/chrono/

@@ -8,6 +8,7 @@ tags:
     - tcpdump
     - ulimit
 date: 2015-09-23 18:22:00
+published: false
 ---
 
 ## ☆ gdb
@@ -44,5 +45,7 @@ unlimited
 |dst|目标地址|
 |and|逻辑与|
 |or |逻辑或|
+
+`tcpdump -i any -X -vvv -tttt -o`
 
 `tcpdump  -i eth0 -Xnt "(src 192.168.1.194 and dst 192.168.1.183) or (src 192.168.1.183 and dst 192.168.1.194)"`

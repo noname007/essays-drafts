@@ -2,6 +2,8 @@
 layout: post
 title:  生活在这个时代面临的问题
 date:   2022-03-04 11:22:55 +0800
+categories:
+  -  随笔
 published: false
 ---
 
