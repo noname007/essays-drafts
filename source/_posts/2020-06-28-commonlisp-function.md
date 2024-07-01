@@ -3,7 +3,7 @@ layout: post
 title:  Common Lisp - 函数
 date:   2020-06-28 13:56:36 +0800
 categories:
-- 技术
+- 编程语言
 tags: 
 - CommonLisp
 ---

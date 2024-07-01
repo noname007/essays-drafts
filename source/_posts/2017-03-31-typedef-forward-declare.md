@@ -3,7 +3,7 @@ layout: post
 title:  "c 中的 forward-declare"
 date:   2017-03-31 18:13:27 +0800
 categories:
-- [技术,C]
+- 编程语言
 tags:
   - C
 published: true

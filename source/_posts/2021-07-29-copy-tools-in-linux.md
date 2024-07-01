@@ -3,7 +3,7 @@ layout: post
 title:  redis-cli 
 date:   2021-07-29 15:53:45 +0800
 categories:
-- [技术,Shell]
+- 研发效能
 tags:
 - Linux
 description: 在不同的 Linux 主机间共享二进制可执行文件

@@ -2,7 +2,7 @@
 title: Thrift  一种 协议-工具 设计方法
 layout: post
 categories:
-  - [技术]
+  - 随笔
 tags:
   - Thrift
 description: 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处

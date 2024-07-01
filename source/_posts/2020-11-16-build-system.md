@@ -2,7 +2,7 @@
 layout: post
 title:  持续集成
 categories:
-- [技术,架构设计]
+- 研发效能
 tags:
 - CI/CD
 date:   2020-11-16 17:42:08 +0800

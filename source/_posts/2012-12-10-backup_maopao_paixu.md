@@ -3,7 +3,7 @@ layout: post
 title:  "“冒泡法”对一组数进行排序"
 date:    2012-12-10 17:38:24 +0800
 categories: 
-- [技术,汇编]
+- 编程语言
 tags:
 - 汇编
 published: true

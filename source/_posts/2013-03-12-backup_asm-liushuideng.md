@@ -3,7 +3,7 @@ layout: post
 title:  "流水灯，利用循环左移指令"
 date:   2013-03-12 18:15:35 +0800
 categories: 
-- [技术,汇编]
+- 编程语言
 tags:
 - 汇编
 published: true

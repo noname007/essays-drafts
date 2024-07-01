@@ -3,7 +3,7 @@ layout: post
 title:  "微机原理学习-一些问题总结"
 date:    2012-12-15 17:40:40 +0800
 categories: 
-- [技术,汇编]
+- 编程语言
 tags:
 - 汇编
 published: true

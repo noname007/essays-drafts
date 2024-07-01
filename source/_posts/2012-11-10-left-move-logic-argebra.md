@@ -3,7 +3,7 @@ layout: post
 title:  "汇编中算术左移和逻辑左移操作"
 date:   2012-11-10 00:00:00 +0800
 categories: 
-- [技术,汇编]
+- 编程语言
 tags:
 - 汇编
 published: true

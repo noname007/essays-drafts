@@ -3,7 +3,7 @@ title: Linux 内核分析 -- C函数调用栈机制在汇编中的实现
 layout: post
 date: 2016-02-24 07:55:28
 categories:
-- Linux 内核分析
+- [技术内幕,Linux 内核分析]
 tags:
   - Linux 内核分析
 toc: true

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  cocurrency-simple-speak
+title:  并发模型 - Promise
 date:   2021-01-16 12:17:21 +0800
 categories:
-- 技术
+- 系统编程
 tags:
 - PHP
 - JavaScript

@@ -3,7 +3,7 @@ layout: post
 title:  "利用查表法求某数的平方"
 date:   2012-12-10 17:33:39 +0800
 categories: 
-- [技术,汇编]
+- 编程语言
 tags:
 - 汇编
 published: true

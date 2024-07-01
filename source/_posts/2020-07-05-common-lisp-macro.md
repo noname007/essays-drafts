@@ -3,7 +3,7 @@ layout: post
 title:  Common Lisp - macro
 date:   2020-07-05 19:15:44 +0800
 categories:
-- 技术
+- 编程语言
 tags: 
 - CommonLisp
 ---

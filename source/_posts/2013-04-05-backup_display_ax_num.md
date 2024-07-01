@@ -3,7 +3,7 @@ layout: post
 title:  "ax中的十六进制数据以ascii码的形式显示出来"
 date:   2013-04-05 17:57:50 +0800
 categories: 
-- [技术,汇编]
+- 编程语言
 tags:
 - 汇编
 published: true

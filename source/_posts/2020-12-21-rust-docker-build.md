@@ -3,7 +3,7 @@ layout: post
 title:  构建 Rust docker 镜像
 date:   2020-12-21 16:35:09 +0800
 categories:
-- 技术
+- 研发效能
 tags:
 - Rust
 - Docker

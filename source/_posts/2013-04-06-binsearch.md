@@ -6,7 +6,6 @@ categories:
 - 技术
 tags:
 - C
-- 算法
 ---
 
 ```c
@@ -62,4 +61,3 @@ int query(int *a, int xy,int begin,int end)
     }
 }
 ```
-

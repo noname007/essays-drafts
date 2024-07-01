@@ -2,7 +2,7 @@
 title: ubuntu 一键自动部署 nginx-rtmp
 layout: post
 categories:
-  - 技术
+- [技术内幕,Linux 内核分析]
 tags:
   - 音视频
 description: 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处

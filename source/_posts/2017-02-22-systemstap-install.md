@@ -2,11 +2,11 @@
 layout: post
 title:  "systemtap 安装 总结"
 date:   2017-02-22 17:28:45 +0800
-
-tags:
-- 
 categories:
 - [技术]
+tags:
+- 
+
 published: true
 ---
 

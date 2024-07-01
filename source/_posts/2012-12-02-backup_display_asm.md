@@ -3,7 +3,7 @@ layout: post
 title:  "显示时间"
 date:   2012-12-02 17:21:56 +0800
 categories: 
-- [技术,汇编]
+- 编程语言
 tags:
 - 汇编
 published: true

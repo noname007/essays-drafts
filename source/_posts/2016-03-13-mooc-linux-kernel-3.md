@@ -2,7 +2,7 @@
 layout: post
 title: Linux 内核分析 -- Linux系统启动过程
 categories:
-- Linux 内核分析
+- [技术内幕,Linux 内核分析]
 tags:
   - Linux 内核分析
 description: '杨振振  原创作品转载请注明出处  《Linux内核分析》MOOC课程 http://www.xuetangx.com/courses/course-v1:ustcX+USTC001+_/about'

@@ -3,7 +3,7 @@ layout: post
 title:  "单片机指令简单总结"
 date:   2013-03-12 18:18:50 +0800
 categories: 
-- [技术,汇编]
+- 编程语言
 tags:
 - 汇编
 published: true
