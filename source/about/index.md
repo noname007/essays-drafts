@@ -23,7 +23,7 @@ date: 2022-04-10 16:56:23
 
 # 微信公众号 #
 
-<!-- [](/assets/wechat_mp.jpg){:height="300px" width="300px" align='center'}-->
+[](/assets/wechat_mp.jpg){:height="300px" width="300px" align='center'}
 
 <img src="/assets/wechat_mp.jpg" width="50%" height="50%">
 
