@@ -5,7 +5,8 @@ date:   2016-11-11 19:59:19 +0800
 categories:
 - 技术
 tags:
-- 静态blog
+- jekyll
+- ruby
 published: true
 ---
 

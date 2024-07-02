@@ -5,6 +5,7 @@ date:   2022-03-25 13:09:03 +0800
 categories:
   -  随笔
 published: true
+description: 😮‍💨 垃圾的政务信息系统
 ---
 
 [人才业务办理平台](https://fw.bjrcgz.gov.cn/person-platform/#/person-platform/overview)

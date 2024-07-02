@@ -4,7 +4,8 @@ title:  持续集成
 categories:
 - 研发效能
 tags:
-- CI/CD
+- PHP
+- Linux
 date:   2020-11-16 17:42:08 +0800
 description: " "
 ---

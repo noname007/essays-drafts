@@ -1,5 +1,5 @@
 ---
-title: Gitlab CI/CD 改造回顾总结
+title: Gitlab CI/CD 改造回顾总结 ♻️
 layout: post
 categories:
   - 研发效能
@@ -7,7 +7,7 @@ tags:
   - Docker
   - Golang
 date: 2024-06-04 15:23:30
-description: 改造公司基础设施
+description: 💪 改造公司基础设施
 ---
 
 ## 背景

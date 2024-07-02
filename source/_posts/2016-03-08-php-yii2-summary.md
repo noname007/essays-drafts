@@ -2,7 +2,7 @@
 title: 使用yii2框架开发的一点总结
 layout: post
 categories:
-  - 随笔
+  - 技术
 tags:
   - PHP
   - Yii2

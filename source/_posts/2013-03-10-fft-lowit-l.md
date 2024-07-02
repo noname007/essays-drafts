@@ -3,7 +3,7 @@ layout: post
 title:  数L,在二进制下末尾0的个数k,与fft过程中的码位倒序
 date:   2013-03-10 12:35:40 +0800
 categories:
-- 随笔
+- 技术
 tags: 
 - 数字信号处理
 ---

@@ -4,9 +4,8 @@ title:  "使用composer vcs 构建私有资源库"
 date:   2016-12-09 10:21:09 +0800
 tags:
 - PHP
-- CI/CD
 categories: 
-- [技术,PHP]
+- 研发效能
 published: true
 ---
 * 目录

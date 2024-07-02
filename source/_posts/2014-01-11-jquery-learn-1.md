@@ -5,7 +5,8 @@ date: 2014-01-11 09:50:49 +0800
 categories:
 - 技术
 tags:
-- JS
+- jQuery
+- JavaScript
 published: true
 ---
 

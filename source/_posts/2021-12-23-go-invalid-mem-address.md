@@ -6,6 +6,8 @@ categories:
 - 技术内幕
 tags:
   - troubleshooting
+  - Golang
+  - Kafka
 description: 线上故障排查笔记
 ---
 

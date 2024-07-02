@@ -3,7 +3,7 @@ layout: post
 title:  "编译原理-几个练习题"
 date:   2017-05-15 14:30:26 +0800
 categories:
-- 编译原理
+- 编程语言
 tags: 
 - 编译原理
 published: true

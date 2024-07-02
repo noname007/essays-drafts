@@ -4,8 +4,12 @@ layout: post
 categories:
 - [技术]
 tags:
-- 静态blog
-description: 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处
+- hexo
+- jekyll
+- emacs
+- waline
+- org
+description: 👌
 date: 2022-03-26 19:18:34
 ---
 

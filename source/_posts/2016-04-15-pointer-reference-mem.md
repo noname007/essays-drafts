@@ -1,7 +1,7 @@
 title: 指针、引用与内存
 layout: post
 categories:
-- [技术,C]
+- 编程语言
 tags:
   - C
 description: 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处
