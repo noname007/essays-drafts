@@ -3,6 +3,7 @@ layout: post
 title:  会议室选择面板屏幕如何选择？
 date:   2020-12-18 10:29:41 +0800
 categories:
+- 技术内幕
 - 音视频
 description: " "
 ---
@@ -13,12 +14,6 @@ description: " "
 屏幕尺寸 *  factore = 人眼视觉接受最远距离
 
 %EH = 元素高度 / 屏幕尺寸
-
- 
-
- 
-
- 
 
 ### Factor ###
 

@@ -4,7 +4,7 @@ title:  Gentoo Linux 构建笔记
 date:   2022-01-01 04:09:02 +0800
 categories:
 - 研发效能
-published: true
+published: false
 description: 少年让你的 CPU 燃烧吧! 🔥
 ---
   * 为什么需要

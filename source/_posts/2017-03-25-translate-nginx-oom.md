@@ -6,6 +6,8 @@ categories:
 - 翻译
 
 tags:
+- Linux
+- Nginx
 - 翻译
 - troubleshooting
 

@@ -5,7 +5,7 @@ date:   2016-12-15 12:45:23 +0800
 categories:
 - 技术
 tags:
-- 
+- Linux
 published: true
 ---
 * 目录

@@ -4,6 +4,7 @@ layout: post
 categories:
 - [技术,OpenResty]
 tags: 
+- Nginx
 - Lua
 date: 2015-09-18 17:47:00
 

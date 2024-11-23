@@ -1,3 +1,4 @@
+---
 title: 指针、引用与内存
 layout: post
 categories:

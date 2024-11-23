@@ -4,6 +4,7 @@ title:  "使用composer vcs 构建私有资源库"
 date:   2016-12-09 10:21:09 +0800
 tags:
 - PHP
+- 依赖管理
 categories: 
 - 研发效能
 published: true

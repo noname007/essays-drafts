@@ -5,8 +5,9 @@ date:   2021-06-20 15:31:40 +0800
 categories:
 - 系统编程
 tags:
-- Yii2
+- Linux
 - PHP
+- Yii2
 description: Yii2 、socket 与 多进程
 ---
 

@@ -5,7 +5,9 @@ date:   2017-02-22 17:28:45 +0800
 categories:
 - [技术]
 tags:
-- 
+- Linux
+- systemtap
+- trace
 
 published: true
 ---

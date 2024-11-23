@@ -7,6 +7,7 @@ categories:
 tags:
 - jekyll
 - ruby
+- 个人博客
 published: true
 ---
 

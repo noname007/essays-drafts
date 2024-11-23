@@ -4,11 +4,16 @@ title:  云打印原型调研
 date:   2020-10-16 14:59:00 +0800
 categories:
 - [技术]
-description:  "基于树莓派 + ArchLinux + Cups + Saltstack的打印机管理"
+description:  "基于树莓派 + ArchLinux + Cups + Saltstack 的打印机管理方案调研"
 tags:
 - 解决方案
+- Linux
+- Saltstack
+
 ---
 
+## 技术栈
+![](/imgs/2020-10-16-cloud.print.drawio.png)
 
 ## 树莓派安装 ArchLinux  ##
 

@@ -5,6 +5,7 @@ date:   2020-01-22 17:42:55 +0800
 categories:
 - 系统编程
 tags:
+- Linux
 - C
 published: true
 description: "编译动态链接库"

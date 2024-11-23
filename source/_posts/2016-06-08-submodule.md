@@ -4,6 +4,9 @@ title:  "git submodule 笔记"
 date:   2016-06-08 12:14:28 +0800
 categories:
     - [技术,Git]
+tags:
+    - git
+    - 版本控制
 ---
 
 1 .   添加 submodule

@@ -3,9 +3,7 @@ layout: post
 title:  Go Sarama Kafka 数据丢失分析
 date:   2021-12-23 16:56:36 +0800
 categories:
-- 技术内幕
 tags:
-  - troubleshooting
   - Golang
   - Kafka
 description: 线上故障排查笔记
@@ -21,7 +19,7 @@ description: 线上故障排查笔记
 
 日志中有一条如下记录：
 
-```
+```text
 invalid memory address or nil pointer dereference
 exit....
 ```
