@@ -3,10 +3,10 @@ layout: post
 title:  "单片机：数码管显示0到9实验"
 date:   2013-03-14 18:20:31 +0800
 categories: 
-- 编程语言
+- 技术
 tags:
 - 汇编
-
+- 微机组成原理
 published: true
 ---
 

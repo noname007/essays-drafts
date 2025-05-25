@@ -3,9 +3,10 @@ layout: post
 title:  "汇编中算术左移和逻辑左移操作"
 date:   2012-11-10 00:00:00 +0800
 categories: 
-- 编程语言
+- 技术
 tags:
 - 汇编
+- 微机组成原理
 published: true
 ---
 

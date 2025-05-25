@@ -2,7 +2,7 @@
 layout: post
 title:  选择的背后 
 categories: 
-- 工作
+- 职场
 date:   2019-07-15 15:36:16 +0800
 published: true
 ---

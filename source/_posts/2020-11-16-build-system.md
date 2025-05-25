@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  持续集成
+title:  在Jekins 中对 PHP 持续集成
 categories:
-- 研发效能
+- 技术
 tags:
-- 工作流
+- 构建
+- Shell
 - PHP
 - Linux
 date:   2020-11-16 17:42:08 +0800

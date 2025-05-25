@@ -3,8 +3,9 @@ layout: post
 title:  Erlang 学习笔记
 date:   2019-09-12 20:22:36 +0800
 categories: 
-- 编程语言
+- 技术
 tags: 
+- 软件工具
 - Erlang
 description: Erlang 学习笔记
 published: true

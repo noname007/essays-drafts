@@ -3,7 +3,8 @@ layout: post
 title:  会议室选择面板屏幕如何选择？
 date:   2020-12-18 10:29:41 +0800
 categories:
-- 技术内幕
+- 技术
+tags:
 - 音视频
 description: " "
 ---
@@ -40,26 +41,24 @@ In boardrooms and conference rooms using video conferencing (Skype, Videxio, Web
 
  
 ### 补充几个资料 ###
+-  [Image Size and Resolution Explained](https://www.youtube.com/watch?v=jp2Q2g0A5wc&t=11s)   
 
-https://www.youtube.com/watch?v=jp2Q2g0A5wc&t=11s  
-Image Size and Resolution Explained
+{% youtube jp2Q2g0A5wc %}
 
+- [dpi 、 dip 、分辨率、屏幕尺寸、px、density 关系以及换算](https://blog.csdn.net/XXJ19950917/article/details/78210777 )
  
-https://blog.csdn.net/XXJ19950917/article/details/78210777 
-dpi 、 dip 、分辨率、屏幕尺寸、px、density 关系以及换算
- 
-https://www.jianshu.com/p/c3387bcc4f6e  
-屏幕尺寸，分辨率，像素，PPI之间到底什么关系
+  
+- [屏幕尺寸，分辨率，像素，PPI之间到底什么关系](https://www.jianshu.com/p/c3387bcc4f6e)
 
 
 ### 二维码  ###
 
-The Best Guide to Choosing the Right Digital Signage Size https://pid.samsungdisplay.com/en/learning-center/blog/how-to-choose-signage-size  对基础概念有解释 
+- [The Best Guide to Choosing the Right Digital Signage Size](https://pid.samsungdisplay.com/en/learning-center/blog/how-to-choose-signage-size)   对基础概念有解释 
+
+|元素类型|尺寸|距离|效果|识别工具|
+|---|----|--|---|----|
+|二维码，7%冗余度 |`200px X 200px `|1m|秒级识别|企微|
+|文字| 字体高度 >0.4cm |  80cm |  字体高度/观测距离的 ~= 千分之五 | 人眼|
 
 
-二维码 7%冗余度  200px X 200px  尺寸我用企微在 1m 左右能秒识别，
-
-文字设计的时候，人眼80cm换测的地方只要字体高度保证大于0.4cm既可以，字体高度基本上是观测距离的千分之五
-
-
-AVIXA, Inc. 针对ANSI 标准做的计算工具 BDM 场景下 https://www.avixa.org/standards/discas-calculators/discas/bdm
+- BDM 场景下 AVIXA, Inc. 针对ANSI 标准做的[计算工具](https://www.avixa.org/standards/discas-calculators/discas/bdm), 

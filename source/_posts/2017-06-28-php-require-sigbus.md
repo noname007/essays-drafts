@@ -3,11 +3,11 @@ layout: post
 title:  "(= (PHP require) 引起的 SIGBUS)"
 date:   2017-06-28 17:33:27 +0800
 categories: 
-- [技术,PHP]
+- 技术
 published: true
 tags:
 - PHP
-- troubleshooting
+- 系统编程
 author: soul11201
 ---
 

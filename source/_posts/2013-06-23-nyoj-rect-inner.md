@@ -3,7 +3,10 @@ layout: post
 title:  NYOJ 矩形嵌套
 date:   2013-06-23 21:25:14 +0800
 categories:
-- OJ
+- 技术
+tags:
+- ACM 训练
+- 算法与数据结构
 ---
 
 比如说矩形(a,b),要是能嵌入到矩形（c,d)中,abcd都为矩形的边长，不防假设a<b,c<d

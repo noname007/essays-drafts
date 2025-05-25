@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 花生豆拍黄瓜
-subtitle: 行是知之始，知是行之成
+title: 西西弗
+subtitle: 
 description:  
 author: soul11201
 language: zh-CN
@@ -13,9 +13,9 @@ timezone: Asia/Shanghai
 # avatar: https://avatars2.githubusercontent.com/u/8514816?v=3&s=140
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.soul11201.com
+# url:
 # root: 
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:title.html
 permalink_defaults:
 
 # Directory
@@ -59,7 +59,7 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 0
+per_page: 3
 pagination_dir: page
 
 # Extensions
@@ -74,7 +74,7 @@ theme: fluid
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   - type: git
-    repo: git@github.com:yangzz0/yangzz0.github.io.git
+    repo: git@github.com:noname007/noname007.github.io.git
     branch: master
   # - type: git
   #   repo: git@gitcafe.com:soul11201/soul11201.git

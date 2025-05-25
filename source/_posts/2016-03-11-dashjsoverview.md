@@ -5,6 +5,7 @@ categories:
    - 技术
 tags:
    - 音视频
+   - 软件工具
 description: 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处
 date: 2016-03-11 14:20:55
 ---
@@ -20,8 +21,8 @@ date: 2016-03-11 14:20:55
 
 [nimble](https://wmspanel.com/nimble)和[bitcodin](https://developer.bitcodin.com/doc/getting-started)的下面两张图最能说明
 
- ![](/imgs/bitcodindash.jpg) 
- ![](/imgs/NimbleStreamerFeature.png)
+ ![](/assets/imgs/bitcodindash.jpg) 
+ ![](/assets/imgs/NimbleStreamerFeature.png)
 
 
 相关类似技术

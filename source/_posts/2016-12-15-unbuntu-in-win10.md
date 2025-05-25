@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Window 10 中安装Ubuntu"
+title:  "Window 10 中安装 Ubuntu"
 date:   2016-12-15 12:45:23 +0800
 categories:
 - 技术

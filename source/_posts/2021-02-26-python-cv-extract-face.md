@@ -3,10 +3,12 @@ layout: post
 title:  python 视频流提取人脸
 date:   2021-02-26 12:50:54 +0800
 categories:
-- 音视频
+- 技术
 tags:
 - Python
-description: 玩一玩人脸识别
+- 音视频
+- 软件工具
+description: opencv
 ---
 
 

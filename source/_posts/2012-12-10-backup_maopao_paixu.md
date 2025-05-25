@@ -3,9 +3,10 @@ layout: post
 title:  "“冒泡法”对一组数进行排序"
 date:    2012-12-10 17:38:24 +0800
 categories: 
-- 编程语言
+- 技术
 tags:
 - 汇编
+- 微机组成原理
 published: true
 ---
 
@@ -17,7 +18,7 @@ published: true
 设计要求：按代码值大小升序或降序排列，并显示排序前后字符表。
 
 
-```asm
+```x86asm
 assume ds:data,cs:code
 
 

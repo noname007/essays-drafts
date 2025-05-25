@@ -56,7 +56,7 @@ public class SimpleServer {
 - 协议层 `TBinaryProtocol.Factory`
 - 传输层 `TServerSocket`
 
-![](/imgs/thrift-arch-2022-04.png "https://www.cnblogs.com/mymelody/p/9474300.html")
+![](/assets/imgs/thrift-arch-2022-04.png "https://www.cnblogs.com/mymelody/p/9474300.html")
 
 
 ## 分析 ##

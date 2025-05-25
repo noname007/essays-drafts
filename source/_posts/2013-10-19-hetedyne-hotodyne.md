@@ -4,6 +4,8 @@ title:  "hetedyne 与 hotodyne"
 date:   2013-10-19 12:14:28 +0800
 categories: 
 - 技术
+tags:
+- 电磁场
 ---
 
 今天终于问明白了这两个专业词语是什么意思了。

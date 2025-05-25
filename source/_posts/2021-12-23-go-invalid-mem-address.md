@@ -3,9 +3,11 @@ layout: post
 title:  Go Sarama Kafka 数据丢失分析
 date:   2021-12-23 16:56:36 +0800
 categories:
+- 技术
 tags:
   - Golang
   - Kafka
+  - 消息队列
 description: 线上故障排查笔记
 ---
 

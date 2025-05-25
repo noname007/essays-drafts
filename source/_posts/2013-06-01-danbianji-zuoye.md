@@ -2,10 +2,11 @@
 layout: post
 title:  "单片机上机题目"
 date:   2013-06-01 00:00:00 +0800
-tags:
-- 汇编
 categories: 
 - 技术
+tags:
+- 汇编
+- 微机组成原理
 published: true
 ---
 

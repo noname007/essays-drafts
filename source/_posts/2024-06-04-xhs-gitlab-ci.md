@@ -2,13 +2,17 @@
 title: Gitlab CI/CD 改造回顾总结 ♻️
 layout: post
 categories:
-  - 研发效能
+  - 技术
 tags:
+  - 构建
+  - 部署
   - Docker
   - Golang
 date: 2024-06-04 15:23:30
 description: 💪 改造公司基础设施
 ---
+
+![](/assets/imgs/2025-05-25_211849_851.png)
 
 ## 背景
 
@@ -33,7 +37,7 @@ description: 💪 改造公司基础设施
 
 ## 改造
 
-![](/imgs/2024-06-04-gitlab-ci-workflow.drawio.png "Gitlab CI/CD 工作流程")
+![](/assets/imgs/2024-06-04-gitlab-ci-workflow.drawio.png "Gitlab CI/CD 工作流程")
 
 ### 改造 Golang 基础镜像
 #### 反解旧镜像`Dockerfile`
@@ -128,10 +132,10 @@ ENV LANG=C.UTF-8
 1. 镜像大小从 440M → 110M （alpine 能降到 36M ）
 2. 285个中、高、致命漏洞 降低为 23 个低级风险问题
 
-![](/imgs/2024-06-04-old-golang-runtime-docker-image.png "旧运行时镜像")
+![](/assets/imgs/2024-06-04-old-golang-runtime-docker-image.png "旧运行时镜像")
 
 
-![](/imgs/2024-06-04-new-golang-runtime-container-image.png "新运行时镜像")
+![](/assets/imgs/2024-06-04-new-golang-runtime-container-image.png "新运行时镜像")
 
 
 ### 改造 `.gitlab-ci.yml` 

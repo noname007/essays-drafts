@@ -3,10 +3,11 @@ layout: post
 title:  编译、链接、装载
 date:   2020-01-22 17:42:55 +0800
 categories:
-- 系统编程
+- 技术
 tags:
 - Linux
 - C
+- 构建
 published: true
 description: "编译动态链接库"
 ---

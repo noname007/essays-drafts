@@ -3,16 +3,17 @@ layout: post
 title:  "ax中的十六进制数据以ascii码的形式显示出来"
 date:   2013-04-05 17:57:50 +0800
 categories: 
-- 编程语言
+- 技术
 tags:
 - 汇编
+- 微机组成原理
 published: true
 ---
 
 ax中的十六进制数据以ascii码的形式显示出来 
 
 
-```asm
+```x86asm
 assume cs:code,ds:data
    
 data segment

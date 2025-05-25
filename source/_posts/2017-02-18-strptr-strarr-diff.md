@@ -3,7 +3,7 @@ layout: post
 title:  "字符数组与字符串指针区别"
 date:   2017-02-18 21:27:40 +0800
 categories:
-- [技术,C]
+- 技术
 tags:
   - C
 published: true

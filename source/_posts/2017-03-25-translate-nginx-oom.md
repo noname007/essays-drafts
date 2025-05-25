@@ -3,7 +3,7 @@ layout: post
 title:  "【译】Openresty OOM 臭虫"
 date:   2017-03-25 17:46:27 +0800
 categories:
-- 翻译
+- 技术
 
 tags:
 - Linux

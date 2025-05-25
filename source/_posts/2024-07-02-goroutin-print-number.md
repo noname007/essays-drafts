@@ -2,8 +2,9 @@
 title: Golang - N个协程交替打印数字
 layout: post
 categories:
-  - 系统编程
+  - 技术
 tags:
+  - 并发
   - Golang
 date: 2024-07-02 20:39:36
 description: 🤝 协同交替打印数字

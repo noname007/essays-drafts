@@ -3,7 +3,7 @@ layout: post
 title:  C 语言很难吗？
 date:   2020-09-15 09:48:53 +0800
 categories:
-  -  随笔
+  -  职场
 tags:
   -  C
 published: true

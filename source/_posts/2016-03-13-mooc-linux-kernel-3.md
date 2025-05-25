@@ -2,7 +2,7 @@
 layout: post
 title: Linux 内核分析 -- Linux系统启动过程
 categories:
-- [技术内幕,Linux 内核分析]
+- 技术
 tags:
   - Linux 内核分析
 description: '杨振振  原创作品转载请注明出处  《Linux内核分析》MOOC课程 http://www.xuetangx.com/courses/course-v1:ustcX+USTC001+_/about'
@@ -43,7 +43,7 @@ gdb
 
 部分截图
 
-![](/imgs/moocos-3.png)
+![](/assets/imgs/moocos-3.png)
 
 ## start_kernel函数中的初始化
 0号进程，即系统从启动到结束都存在的进程，执行`start_kernel`函数进行内核相关模块的初始化,代码如下。在最后的[ `rest_init();` ](http://codelab.shiyanlou.com/xref/linux-3.18.6/init/main.c#rest_init)函数中使用kthread函数

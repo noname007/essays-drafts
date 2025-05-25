@@ -2,8 +2,9 @@
 title: '【译】How to set up your own private RTMP server using nginx'
 layout: post
 categories:
-  - 翻译
+  - 技术
 tags:
+  - RTMP
   - 翻译
   - 音视频
   - Nginx

@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  redis-cli 
+title:  如何跨主机共享二进制文件 redis-cli？
 date:   2021-07-29 15:53:45 +0800
 categories:
-- 研发效能
+- 技术
 tags:
 - Linux
-description: 在不同的 Linux 主机间共享二进制可执行文件
+- 软件工具
+description: 
 ---
 
 把一台机器上的redis-cli 拷贝到另外一台机器上并使用：

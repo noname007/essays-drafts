@@ -4,6 +4,7 @@ layout: post
 category:
     - 技术
 tags: 
+    - Linux
     - gdb
     - tcpdump
     - ulimit

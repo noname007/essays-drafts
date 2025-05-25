@@ -3,9 +3,10 @@ layout: post
 title:  "流水灯，利用循环左移指令"
 date:   2013-03-12 18:15:35 +0800
 categories: 
-- 编程语言
+- 技术
 tags:
 - 汇编
+- 微机组成原理
 published: true
 ---
 

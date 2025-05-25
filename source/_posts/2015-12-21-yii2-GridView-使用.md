@@ -3,7 +3,7 @@ title: yii2 GridView 使用
 layout: post
 date: 2015-12-21 20:09:41
 categories:
-- [技术,PHP]
+- 技术
 tags: 
 - Yii2
 - PHP

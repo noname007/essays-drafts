@@ -2,10 +2,11 @@
 title: Lua 元表、元方法
 layout: post
 categories:
-- [技术,OpenResty]
+- 技术
 tags: 
 - Nginx
 - Lua
+- OpenResty
 date: 2015-09-18 17:47:00
 
 

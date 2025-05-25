@@ -6,7 +6,7 @@ categories:
    - 技术
 tags:
    - 音视频
-
+   - 软件工具
 description: " "
 
 ---
@@ -18,8 +18,8 @@ description: " "
 2. 双击运行 **MonaServer.exe**，同级目录下会生成`logs/`和`www/`两个文件夹，然后重新运行 **MonaServer.exe**。
 1. 配置obs推流。
 
-![](/imgs/MonaServer-1.png)
-![](/imgs/MonaServer-2.png)
+![](/assets/imgs/MonaServer-1.png)
+![](/assets/imgs/MonaServer-2.png)
 
 
 ## 参考链接

@@ -3,9 +3,10 @@ layout: post
 title:  "利用查表法求某数的平方"
 date:   2012-12-10 17:33:39 +0800
 categories: 
-- 编程语言
+- 技术
 tags:
 - 汇编
+- 微机组成原理
 published: true
 ---
 
@@ -15,7 +16,7 @@ published: true
 分析：（1）表格存放在内存某段地址空间。（2）查表指令(换码指令)：XLAT
 
 
-```asm
+```x86asm
 
 assume ds:data
 

@@ -3,9 +3,10 @@ layout: post
 title:  "单片机指令简单总结"
 date:   2013-03-12 18:18:50 +0800
 categories: 
-- 编程语言
+- 技术
 tags:
 - 汇编
+- 微机组成原理
 published: true
 ---
 

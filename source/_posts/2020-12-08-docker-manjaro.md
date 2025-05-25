@@ -3,10 +3,12 @@ layout: post
 title:  Manjaro 安装 Docker
 date:   2020-12-08 12:32:57 +0800
 categories:
-- 研发效能
+- 技术
 tags:
 - Docker
 - Linux
+- 软件工具
+- systemd
 description: " "
 ---
 

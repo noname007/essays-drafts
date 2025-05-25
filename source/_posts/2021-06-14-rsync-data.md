@@ -4,9 +4,10 @@ title:  rsync 数据备份
 date:   2021-06-14 15:44:35 +0800
 published: true
 categories:
-- [技术,Shell]
+- 技术
 tags:
 - Linux
+- 软件工具
 ---
 
 

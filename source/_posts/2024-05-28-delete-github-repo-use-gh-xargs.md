@@ -3,6 +3,8 @@ title: 使用命令行批量删除 Github 仓库
 layout: post
 categories:
   - 技术
+tags:
+- 软件工具
 date: 2024-05-28 17:46:58
 description: 使用命令行批量删除 Github 仓库
 ---

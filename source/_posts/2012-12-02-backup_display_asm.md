@@ -3,16 +3,17 @@ layout: post
 title:  "显示时间"
 date:   2012-12-02 17:21:56 +0800
 categories: 
-- 编程语言
+- 技术
 tags:
 - 汇编
+- 微机组成原理
 published: true
 ---
 
 
 用汇编在屏幕窗口中显示时间
 
-```asm
+```x86asm
 
 ;al存放从cmos的ram中读取的数据，ah中存放数据显示的格式。
 ;es:di 用来指定在屏幕中那个位置显示，以何种样式。

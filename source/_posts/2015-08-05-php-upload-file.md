@@ -3,10 +3,10 @@ title: PHP文件上传
 layout: post
 date: 2015-08-05 19:07:02
 categories:
-- [技术,PHP]
+- 技术
 tags:
 - PHP
-- Nginx  
+- Nginx
 ---
 
 {% note success %}

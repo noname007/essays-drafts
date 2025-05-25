@@ -4,6 +4,9 @@ title:  "补码，用一个圆盘理解"
 date:   2012-12-17 17:55:48 +0800
 categories: 
 - 技术
+tags:
+- 汇编
+- 微机组成原理
 published: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Thrift 入门学习 笔记"
 date:   2017-04-05 13:44:12 +0800
 categories:
-- [技术,Thrift]
+- 技术
 tags:
   - Thrift
 published: true

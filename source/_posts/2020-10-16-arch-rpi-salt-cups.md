@@ -13,7 +13,7 @@ tags:
 ---
 
 ## 技术栈
-![](/imgs/2020-10-16-cloud.print.drawio.png)
+![](/assets/imgs/2020-10-16-cloud.print.drawio.png)
 
 ## 树莓派安装 ArchLinux  ##
 
