@@ -602,7 +602,7 @@ post:
   custom:
     enable: true
     # content: '<img src="https://octodex.github.com/images/jetpacktocat.png" class="rounded mx-auto d-block mt-5" style="width:150px; height:150px;">'
-    content: '<img src="https://octodex.github.com/images/jetpacktocat.png" class="rounded mx-auto d-block mt-5" style="width:150px; height:150px;">'
+    content: '<img src="/assets/imgs/contacts/wechat_mp.jpg" class="rounded mx-auto d-block mt-5" style="width:200px; height:200px;">'
     
 
   # 文章图片可点击放大

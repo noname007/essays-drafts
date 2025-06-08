@@ -13,7 +13,8 @@ timezone: Asia/Shanghai
 # avatar: https://avatars2.githubusercontent.com/u/8514816?v=3&s=140
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-# url:
+url: https://noname007.github.io
+root: /
 # root: 
 permalink: :year/:month/:day/:title.html
 permalink_defaults:
